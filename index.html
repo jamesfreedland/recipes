@@ -76,6 +76,7 @@ footer.credits{max-width:1060px;margin:0 auto;padding:20px 20px 60px;color:var(-
 footer.credits summary{cursor:pointer;font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase;font-size:11px;color:var(--accent)}
 footer.credits li{margin:2px 0}
 footer.credits a{color:var(--muted)}
+.arb{display:inline-block;vertical-align:2px;font-family:var(--mono);font-size:9.5px;letter-spacing:.09em;color:var(--tomato);background:var(--tomato-soft);border-radius:4px;padding:2px 6px;margin-left:8px;text-transform:uppercase}
 .nytb{display:inline-block;vertical-align:2px;font-family:var(--mono);font-size:9.5px;letter-spacing:.09em;color:var(--accent);background:var(--accent-soft);border-radius:4px;padding:2px 6px;margin-left:8px;text-transform:uppercase}
 .rb .desc{margin:0 0 10px;font-size:14px}
 .rb a{color:var(--accent);font-weight:600;text-decoration:none}
@@ -85,7 +86,7 @@ footer.credits a{color:var(--muted)}
 
 <header class="hero">
   <h1>The Recipe Board</h1>
-  <p>The full family collection, reorganized – dressings to desserts – plus <span class="newnote">14 new mostly-vegetarian additions</span> in the spirit of Alison Roman, Ali Slagle, Ottolenghi, Diane Kochilas and Melissa Clark, marked <span class="new">New</span>, and 70 linked picks from NYT Cooking with their star ratings.</p>
+  <p>The full family collection, reorganized – dressings to desserts – plus our own additions and adapted picks from NYT Cooking and <span class="newnote">Alison Roman’s recipe archive</span>. Cards marked <span class="arb">AR</span> link to her site; subscriber ones open with your login.</p>
 </header>
 
 <div class="toolbar">
@@ -98,6 +99,7 @@ footer.credits a{color:var(--muted)}
       <button class="chip on" data-c="all">All</button>
       <button class="chip newchip" data-c="new">★ New</button>
       <button class="chip" data-c="nytc">NYT Cooking</button>
+      <button class="chip" data-c="arc">Alison Roman</button>
       <button class="chip" data-c="dressings">Dressings &amp; Sauces</button>
       <button class="chip" data-c="dips">Dips &amp; Spreads</button>
       <button class="chip" data-c="pickles">Pickles &amp; Marinated</button>
@@ -222,9 +224,29 @@ footer.credits a{color:var(--muted)}
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 Tbsp white miso</li><li>1/4 cup rice vinegar</li><li>1 Tbsp soy sauce</li><li>1 Tbsp sugar or honey</li><li>1 tsp grated ginger</li><li>2 Tbsp toasted sesame oil</li><li>1/4 cup neutral oil</li><li>1 Tbsp toasted sesame seeds</li></ul></div><div><h4>Method</h4><ol><li>Shake or blend everything until creamy and emulsified.</li><li>Keeps 2 weeks refrigerated. The name is accurate: greens, grain bowls, roasted vegetables, cold noodles, the crispy tofu.</li></ol><p class="note">Adapted in our own words. <a href="https://cooking.nytimes.com/search?q=Miso-Sesame+Vinaigrette+That%27s+Good+on+Anything" target="_blank" rel="noopener">Original on NYT Cooking →</a></p></div></div></div>
 </article>
 
-<article class="r" data-c="dressings">
+<article class="r" data-ar="1" data-c="dressings">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cranberry-tart-0.jpg" alt="" loading="lazy"></span><div><h3>Cranberries and Honey</h3><p class="m">Alison Roman · two ingredients · makes 4 cups (halves easily)</p></div><span class="x">+</span></button>
-<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 (12-oz) bags cranberries, fresh or frozen (6 cups)</li><li>1 1/2 cups honey (one honeybear)</li><li>Small pinch kosher salt</li><li>Optional: 1/2 cup citrus juice, grated citrus zest or fresh ginger</li></ul></div><div><h4>Method</h4><ol><li>Combine cranberries (2 (12-oz) bags), honey and salt in a medium pot (frozen berries can go straight in). Bring to a boil, drop to medium, add 1/2 cup water.</li><li>Cook, stirring occasionally, until the berries burst and the pot turns jammy — a few stubborn whole ones are charming.</li><li>Off heat, add citrus or ginger if using. Cool completely; it firms as it chills. Keeps 1+ week refrigerated.</li><li>Deliberately austere and barely sweet — add more honey (1 1/2 cups) if your table complains.</li></ol></div></div></div>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 (12-oz) bags cranberries, fresh or frozen (6 cups)</li><li>1 1/2 cups honey (one honeybear)</li><li>Small pinch kosher salt</li><li>Optional: 1/2 cup citrus juice, grated citrus zest or fresh ginger</li></ul></div><div><h4>Method</h4><ol><li>Combine cranberries (2 (12-oz) bags), honey and salt in a medium pot (frozen berries can go straight in). Bring to a boil, drop to medium, add 1/2 cup water.</li><li>Cook, stirring occasionally, until the berries burst and the pot turns jammy — a few stubborn whole ones are charming.</li><li>Off heat, add citrus or ginger if using. Cool completely; it firms as it chills. Keeps 1+ week refrigerated.</li><li>Deliberately austere and barely sweet — add more honey (1 1/2 cups) if your table complains.</li></ol></div><p class="note">Also in Alison Roman’s archive. <a href="https://www.alisoneroman.com/recipes/cranberries-and-honey/" target="_blank" rel="noopener">Her version →</a></p></div></div>
+</article>
+
+<article class="r" data-c="dressings" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/salad-dressing-0.jpg" alt="" loading="lazy"></span><div><h3>Any-Greens Mustard Dressing<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Sibling of the Excellent Mustard Dressing, built for whatever's in the crisper.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/any-greens-mustard-dressing/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="dressings" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/apple-cake-0.jpg" alt="" loading="lazy"></span><div><h3>Classic Apple Sauce<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Barely-sweet applesauce for latkes and spoons.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/classic-apple-sauce/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="dressings" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cranberry-tart-0.jpg" alt="" loading="lazy"></span><div><h3>Fancy Canned Cranberries<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">The canned-cranberry homage, dressed up.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/fancy-canned-cranberries/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="dressings" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/salad-dressing-0.jpg" alt="" loading="lazy"></span><div><h3>An Excellent Mustard Dressing<span class="arb">AR</span></h3><p class="m">Alison Roman · makes ~3/4 cup</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 small shallot, finely chopped</li><li>1 garlic clove, finely grated</li><li>2 Tbsp white wine, red wine or sherry vinegar, plus more</li><li>Kosher salt and black pepper</li><li>2 Tbsp whole-grain or Dijon mustard (or a mix)</li><li>1/3 cup olive oil, plus more</li><li>1 Tbsp water</li></ul></div><div><h4>Method</h4><ol><li>Let the shallot (1 small) and garlic (1 clove) sit in the vinegar (2 Tbsp) with salt and pepper a few minutes to mellow.</li><li>Mix in the mustard (2 Tbsp) and water (1 Tbsp).</li><li>Add the oil (1/3 cup); stir or shake to combine.</li><li>Taste and nudge with more of anything.</li></ol><p class="note">Whole-grain reads rustic, Dijon creamier. Keeps 1 week in the fridge; good on salads, lentils, roasted vegetables. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/an-excellent-mustard-dressing/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
 </article>
 
 </div>
@@ -316,6 +338,26 @@ footer.credits a{color:var(--muted)}
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 (8-oz) block feta</li><li>2 Tbsp olive oil</li><li>2 Tbsp honey</li><li>1 tsp fresh thyme leaves or a pinch of oregano</li><li>Black pepper</li><li>Crackers, pita or bread</li></ul></div><div><h4>Method</h4><ol><li>Set the feta (1 (8-oz) block) in a small baking dish; coat with the oil.</li><li>Bake at 400°F until soft through, 15–20 minutes, then broil a minute for color.</li><li>Warm the honey (2 Tbsp) and pour it over; thyme and pepper to finish. Serve immediately, while spreadable.</li></ol><p class="note">Adapted in our own words. <a href="https://cooking.nytimes.com/search?q=Baked+Feta+With+Honey" target="_blank" rel="noopener">Original on NYT Cooking →</a></p></div></div></div>
 </article>
 
+<article class="r" data-c="dips" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/baked-feta-0.jpg" alt="" loading="lazy"></span><div><h3>Labne with Sizzled Scallions and Chile<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Cold labne under hot chili-scallion oil.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/labne-with-sizzled-scallions-and-chile/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="dips" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/dip-food-0.jpg" alt="" loading="lazy"></span><div><h3>Blue Cheese Dip<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">For wings, crudités and conviction.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/blue-cheese-dip/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="dips" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Grilled Tomatillo Salsa<span class="arb">AR</span></h3><p class="m">Alison Roman · makes ~3 cups · vegan</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 lb large tomatillos, husks removed</li><li>Olive oil, for rubbing</li><li>Kosher salt and pepper</li><li>1/2 yellow onion, quartered (or 1/2 bunch scallions)</li><li>1 jalapeño, halved</li><li>2 garlic cloves, finely grated</li><li>1 cup cilantro, finely chopped</li><li>1/4 cup fresh lime juice, plus more</li></ul></div><div><h4>Method</h4><ol><li>Rub the tomatillos (2 lb), onion (1/2) and half the jalapeño with oil, salt and pepper.</li><li>Grill, turning, until army-green and charred, 10–15 minutes, pulling pieces as they finish (scallions need just 5–7).</li><li>Cool slightly, then chop coarsely (or blend a big batch) into a bowl.</li><li>Mince the raw jalapeño half and stir in with the garlic (2 cloves), cilantro (1 cup) and lime (1/4 cup).</li><li>Season with salt and more lime; finish with a good pour of olive oil.</li></ol><p class="note">No grill: roast the oiled vegetables at 450°F, 15–20 minutes. Keeps a week refrigerated. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/grilled-tomatillo-salsa-2/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="dips" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/salad-dressing-0.jpg" alt="" loading="lazy"></span><div><h3>Aioli for Everything<span class="arb">AR</span></h3><p class="m">Alison Roman · makes ~1 1/4 cups · contains raw yolk</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>3/4 cup neutral oil (grapeseed or canola)</li><li>1/4 cup olive oil</li><li>1 large egg yolk</li><li>1 tsp Dijon mustard</li><li>1–2 garlic cloves, finely grated, plus more</li><li>1 Tbsp white vinegar or lemon juice, plus more</li><li>Kosher salt</li></ul></div><div><h4>Method</h4><ol><li>Combine both oils (3/4 cup neutral + 1/4 cup olive) in a spouted cup.</li><li>Set the yolk (1), Dijon (1 tsp) and garlic (1–2 cloves) in a bowl.</li><li>Whisk in the oil a few teaspoons at a time, fully emulsifying between additions; loosen with a splash of the vinegar if it tightens.</li><li>Finish with the vinegar or lemon (1 Tbsp total), salt, and extra garlic to taste; thin with water for a drizzling sauce.</li></ol><p class="note">Keeps about a week refrigerated. Her original offers anchovy as an add-in – omitted here. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/aioli-for-everything/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
 </div>
 </section>
 <section>
@@ -373,6 +415,31 @@ footer.credits a{color:var(--muted)}
 <article class="r" data-c="pickles" data-nyt="1">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/kimchi-2.jpg" alt="" loading="lazy"></span><div><h3>Smacked Cucumber ‘Quick Kimchi’<span class="nytb">NYT</span></h3><p class="m">Eric Kim · 40 min · ★★★★★ (1,590 ratings)</p></div><span class="x">+</span></button>
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 lb kirby or Persian cucumbers</li><li>1 tsp kosher salt</li><li>2 Tbsp gochugaru (Korean chile flakes)</li><li>1 Tbsp soy sauce</li><li>2 tsp sugar</li><li>3 garlic cloves, grated</li><li>1 tsp grated ginger</li><li>2 scallions, sliced</li><li>1 tsp toasted sesame oil; sesame seeds</li></ul></div><div><h4>Method</h4><ol><li>Smack the cucumbers (1 lb) with the flat of a knife until they crack, then break into chunks. Salt (1 tsp) 20 minutes; pour off the liquid.</li><li>Toss with everything else.</li><li>Eat right away, but it's even better after a night in the fridge. Keeps ~4 days.</li></ol><p class="note">Adapted in our own words. <a href="https://cooking.nytimes.com/search?q=Smacked+Cucumber+%E2%80%98Quick+Kimchi%E2%80%99" target="_blank" rel="noopener">Original on NYT Cooking →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="pickles" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/tapenade-0.jpg" alt="" loading="lazy"></span><div><h3>Fancy Citrusy Olives<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 6–8 · warm marinated Castelvetranos</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 lemon</li><li>1 orange</li><li>Peel of 1 grapefruit</li><li>1/2 cup olive oil</li><li>4 chiles de árbol (or 1/2 tsp red pepper flakes)</li><li>1 lb unpitted Castelvetrano olives</li></ul></div><div><h4>Method</h4><ol><li>Slice half the lemon and half the orange thin; keep the other halves for juicing.</li><li>Warm the oil (1/2 cup) with the chiles (4), citrus slices and grapefruit peel until they sizzle, 1–2 minutes.</li><li>Add the olives (1 lb); steep on the lowest heat 10–60 minutes, stirring occasionally.</li><li>Cool in the pot, then squeeze in the reserved lemon and orange halves. Serve with a pit bowl.</li></ol><p class="note">Marinate up to a month ahead, covered and chilled; rewarm gently. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/fancy-citrusy-olives/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="pickles" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/white-beans-dish-0.jpg" alt="" loading="lazy"></span><div><h3>Vinegar-Marinated Butter Beans<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4–8 · toothpick food</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1/3 cup olive oil</li><li>2 (15-oz) cans butter, lima or gigante beans, rinsed</li><li>1 small garlic clove, grated</li><li>Kosher salt and black pepper</li><li>1/2 cup red or white wine vinegar</li><li>Lemon zest, to finish</li></ul></div><div><h4>Method</h4><ol><li>Warm the oil (1/3 cup) in a small pot over medium.</li><li>Add the beans (2 cans) and garlic (1 clove) with salt and pepper; heat just 1–2 minutes to chase off the canned taste.</li><li>Off heat, stir in the vinegar (1/2 cup); sit at least 30 minutes.</li><li>Serve with some of the marinade, black pepper and lemon zest over.</li></ol><p class="note">Keeps 2 weeks refrigerated – bring to room temp. The board's marinated-bean family grows again. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/vinegar-marinated-butter-beans/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="pickles" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/tapenade-0.jpg" alt="" loading="lazy"></span><div><h3>Your Very Own Marinated Artichoke Hearts<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 6–8 · better than the jar</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1/2 cup olive oil</li><li>2 sprigs fresh oregano</li><li>1 lemon, thinly sliced, seeded</li><li>1 shallot, thinly sliced</li><li>Kosher salt and black pepper</li><li>2 (14-oz) cans artichoke hearts in water, drained, halved</li><li>2 Tbsp white wine vinegar</li><li>1/2 cup mint or parsley leaves</li></ul></div><div><h4>Method</h4><ol><li>Sizzle the oregano (2 sprigs), lemon slices (1 lemon) and shallot (1) in the oil (1/2 cup) over medium until they take color, 4–6 minutes; season, off heat.</li><li>Pour the hot oil over the artichokes (2 cans) in a bowl.</li><li>Add the vinegar (2 Tbsp), season again, and rest at least 30 minutes.</li><li>Scatter with mint or parsley (1/2 cup) just before serving.</li></ol><p class="note">Marinates up to 2 weeks ahead (add herbs at the end). Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/your-very-own-marinated-artichoke-hearts/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="pickles" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/orange-cake-0.jpg" alt="" loading="lazy"></span><div><h3>Citrus Marmalade<span class="arb">AR</span></h3><p class="m">Alison Roman · makes ~6 cups · a weekend project</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 1/2 lb mixed citrus (grapefruit, tangerines, oranges, lemons, kumquats)</li><li>2 1/2 cups demerara sugar</li><li>2 1/2 cups granulated sugar</li><li>1/4 cup lemon juice</li><li>10 cups water</li></ul></div><div><h4>Method</h4><ol><li>Cut rind and pith off the citrus (2 1/2 lb) as if segmenting; slice the peels ~1/8 inch and the fruit thin, seeding as you go.</li><li>Boil just the peels in the water (10 cups) 90+ minutes, until halved and nearly translucent.</li><li>Add the fruit; boil until reduced by a third, ~45 minutes.</li><li>Stir in both sugars (5 cups total); cook ~1 hour, skimming, stirring constantly near the end.</li><li>Test at 220°F or on a chilled plate; add the lemon juice (1/4 cup), boil 1–2 minutes, cool 10, jar.</li></ol><p class="note">Keeps in the fridge roughly forever. Pairs with the bostock and the scones. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/citrus-marmalade/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="pickles" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Save the Tomatoes<span class="arb">AR</span></h3><p class="m">Alison Roman · slow-roasted confit · 4 lb at a time</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>4 lb mixed tomatoes</li><li>A few shallots, spring onions or leeks, in wedges</li><li>3–5 garlic cloves, smashed</li><li>A few sprigs thyme, marjoram or oregano</li><li>A few whole dried chiles (árbol, guajillo, chipotle)</li><li>Kosher salt</li><li>At least 1/2 cup extra-virgin olive oil</li></ul></div><div><h4>Method</h4><ol><li>Core the tomatoes (4 lb); leave small ones whole, halve mediums, cut big ones into 2-inch pieces. Into a Dutch oven (not cast iron).</li><li>Tuck in the alliums, garlic (3–5 cloves), herbs and chiles; salt well.</li><li>Pour over the oil (1/2 cup+) so everything can swim.</li><li>Roast at 300°F covered 2–2.5 hours, then uncovered ~1 hour more, until jammy.</li></ol><p class="note">Keeps a month in oil in the fridge, 6 months frozen – end-of-summer insurance for toast, eggs and beans. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/save-the-tomatoes/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
 </article>
 
 </div>
@@ -480,6 +547,81 @@ footer.credits a{color:var(--muted)}
 <article class="r" data-c="salads" data-nyt="1">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/grilled-corn-1.jpg" alt="" loading="lazy"></span><div><h3>Grilled Corn Panzanella<span class="nytb">NYT</span></h3><p class="m">Ali Slagle · 50 min · ★★★★★ (520 ratings)</p></div><span class="x">+</span></button>
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>4 ears corn, shucked</li><li>4 thick slices country bread</li><li>1/4 cup olive oil, plus more for grilling</li><li>1 lb tomatoes, in chunks</li><li>1/2 small red onion, thinly sliced</li><li>2 Tbsp red wine vinegar</li><li>Kosher salt and pepper; 1 cup basil, torn</li></ul></div><div><h4>Method</h4><ol><li>Grill the corn (4 ears) and oiled bread (4) until charred; cut the kernels off, tear the bread into chunks.</li><li>Toss everything with the oil, vinegar (2 Tbsp), salt and pepper in a big bowl.</li><li>Rest 10 minutes so the bread drinks the tomato juice; basil in just before serving.</li></ol><p class="note">Adapted in our own words. <a href="https://cooking.nytimes.com/search?q=Grilled+Corn+Panzanella" target="_blank" rel="noopener">Original on NYT Cooking →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-broccoli-0.jpg" alt="" loading="lazy"></span><div><h3>Charred Broccoli Salad with Garlic and Basil<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Broccoli charred hard, dressed with garlic and basil.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/charred/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Citrus Salad with Bitter Greens<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Winter citrus over chicories.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/citrus-salad-with-bitter-greens/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/kale-salad-0.jpg" alt="" loading="lazy"></span><div><h3>Kale Salad with Honey'd Walnuts<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Sturdy kale, sticky-sweet walnuts.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/kale-salad-with-honeyd-walnuts/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Very Crunchy Salad feat. Fennel, Apples, and Pecans<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">The name is the recipe: crunch on crunch.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/very-crunchy-salad-feat-fennel-apples-and-pecans/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Bitter, Leafy Salad<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Chicories dressed sharp – the palate-cleanser salad.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/bitter-leafy-salad/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Celery Salad with Sour Apple and Walnuts<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Celery as the star, apple and walnut as the chorus.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/celery-salad-with-sour-apple-and-walnuts/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Leafy Herb Salad<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Soft herbs treated as salad greens.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/leafy-herb-salad/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/grilled-corn-0.jpg" alt="" loading="lazy"></span><div><h3>Grilled Corn and Scallion Salad<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Charred corn and scallions, knife-dressed.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/grilled-corn-and-scallion-salad/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pickled-cucumbers-2.jpg" alt="" loading="lazy"></span><div><h3>Cucumbers with Red Onion and Sesame<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Cold crunchy cucumbers, sesame-slicked.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/cucumbers-with-red-onion-and-sesame/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Iceberg Salad with Onions, Capers, and Pecorino<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Iceberg rehabilitated with capers and pecorino.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/iceberg-salad/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Tangy Fruit Salad<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Fruit salad with acid and salt doing real work.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/tangy-fruit-salad/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Summer Wedge<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4 · buttermilk-scallion dressing</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>Dressing: 1 cup sour cream or Greek yogurt, 1 cup buttermilk, 2 Tbsp lemon juice or white vinegar, 2 grated garlic cloves, whites of 1 bunch scallions (chopped), salt and pepper</li><li>1 pint small ripe tomatoes, halved</li><li>1 garlic clove, grated</li><li>2 Tbsp white or white wine vinegar</li><li>4–6 oz blue cheese</li><li>1/2 large head iceberg</li><li>2 cups mixed soft herbs (chives, parsley, dill)</li><li>Olive oil</li></ul></div><div><h4>Method</h4><ol><li>Stir the dressing together (sour cream 1 cup, buttermilk 1 cup, lemon 2 Tbsp, garlic 2 cloves, scallion whites); season assertively.</li><li>Slice the scallion greens into long pieces; ice-water them if you want curls.</li><li>Marinate the tomatoes (1 pint) with garlic (1 clove) and vinegar (2 Tbsp), salted, until serving.</li><li>Cut the iceberg (1/2 head) into wedges and set them on a swoosh of dressing; spoon the tomato juices over.</li><li>Top with tomatoes, blue cheese (4–6 oz), scallion tops, herbs (2 cups) and an oil drizzle.</li></ol><p class="note">Dressing keeps 5 days – the garlic gets louder as it sits. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/summer-wedge/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Parsley Salad with Fennel and Horseradish<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 8–10 · 10 minutes</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 fennel bulbs, thinly sliced</li><li>1 large bunch parsley, leaves and tender stems</li><li>1/4 cup lemon juice, plus more</li><li>Kosher salt and black pepper</li><li>Olive oil</li><li>Fresh horseradish, for grating</li></ul></div><div><h4>Method</h4><ol><li>Toss the fennel (2 bulbs) and parsley (1 big bunch) with the lemon (1/4 cup), salt and pepper – it should taste distinctly lemony.</li><li>Drizzle with oil; toss again.</li><li>Grate horseradish over while tossing so it distributes, then once more on top.</li></ol><p class="note">Dress at the last minute. Radish, cabbage or celery sub for fennel; jarred horseradish or just pepper in a pinch. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/parsley-salad-with-fennel-and-horseradish/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Little Gems with Garlicky Lemon and Pistachio<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4–6 · whole-lemon nut dressing</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 lemons</li><li>1/2 cup raw pistachios (or almonds/walnuts), finely chopped</li><li>1 garlic clove, grated</li><li>1/4 cup olive oil, plus more</li><li>Kosher salt and black pepper</li><li>4–6 heads Little Gem (1 1/2–2 lb), quartered (or romaine/iceberg)</li><li>1/2 cup parsley, chopped</li><li>1/2 cup chives, chopped</li><li>1/4 cup dill, chopped</li><li>Flaky salt</li></ul></div><div><h4>Method</h4><ol><li>Finely chop one whole lemon (1), seeds out; zest and juice the other (1) and set that aside.</li><li>Toast the nuts (1/2 cup) in a dry skillet until fragrant, 2–3 minutes; cool in a bowl.</li><li>Stir the chopped lemon, zest, garlic (1 clove) and oil (1/4 cup) into the nuts; season.</li><li>Lay the quartered lettuces on a platter; dress with the reserved juice, a little oil, salt.</li><li>Spoon the nut-lemon mixture over; shower with parsley, chives, dill and flaky salt.</li></ol><p class="note">Nut mixture (minus lemon and garlic) keeps a day – add those fresh or they turn bitter. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/little-gems-with-garlicky-lemon-and-pistachio/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="salads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pickled-cucumbers-0.jpg" alt="" loading="lazy"></span><div><h3>Highly Seasoned Cucumber Salad<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4–6 · garlic two ways</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1/4 cup olive oil</li><li>4 garlic cloves, finely chopped, divided</li><li>1 lb cucumbers, mixed varieties</li><li>Kosher salt</li><li>2 Tbsp white, white wine or red wine vinegar, plus more</li><li>Zest and juice of 1 lemon</li><li>1/2 cup chopped dill</li><li>1/2 cup chopped cilantro or parsley</li><li>1/2 small red onion or 1 shallot, thinly sliced</li></ul></div><div><h4>Method</h4><ol><li>Warm the oil (1/4 cup) with half the garlic (2 cloves) until lightly golden, ~2 minutes; set aside.</li><li>Slice or smash the cucumbers (1 lb); salt well, sit briefly, pour off the liquid.</li><li>Add vinegar (2 Tbsp) and the raw garlic (2 cloves); sit ~30 minutes, then adjust.</li><li>Stir in lemon zest and juice (1), dill (1/2 cup), cilantro (1/2 cup) and onion.</li><li>Finish with the garlicky oil; toss and tweak.</li></ol><p class="note">Sibling of the smacked-cucumber kimchi one section over. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/highly-seasoned-cucumber-salad/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
 </article>
 
 </div>
@@ -649,19 +791,49 @@ footer.credits a{color:var(--muted)}
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 (15-oz) cans beans (kidney, black or mixed), rinsed</li><li>1 cup corn kernels (canned or thawed)</li><li>1 pint cherry tomatoes, halved</li><li>3 scallions, sliced</li><li>Dressing: 2 Tbsp chile crisp or 1 minced chipotle in adobo, juice of 2 limes, 3 Tbsp olive oil, 1 tsp honey, salt</li><li>1/2 cup cilantro; crumbled feta or diced avocado (optional)</li></ul></div><div><h4>Method</h4><ol><li>Whisk the dressing in the bottom of a big bowl.</li><li>Add beans, corn, tomatoes (1 pint) and scallions; toss well and rest 10 minutes.</li><li>Fold in cilantro; top with feta or avocado. Sturdy enough for lunchboxes and picnics.</li></ol><p class="note">Adapted in our own words. <a href="https://cooking.nytimes.com/search?q=No-Cook+Chili+Bean+Salad" target="_blank" rel="noopener">Original on NYT Cooking →</a></p></div></div></div>
 </article>
 
+<article class="r" data-c="grainsalads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/chickpea-salad-0.jpg" alt="" loading="lazy"></span><div><h3>Pasta e Ceci Salad<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Pasta-and-chickpea salad, the cold cousin of pasta e ceci.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/pasta-e-ceci-salad-2/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="grainsalads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/chickpea-salad-0.jpg" alt="" loading="lazy"></span><div><h3>Frizzled Chickpea Salad<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Chickpeas fried crisp over cool greens.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/frizzled-chickpea-salad/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="grainsalads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/potato-salad-0.jpg" alt="" loading="lazy"></span><div><h3>Potato Salad with Celery and Mustard<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Her tangy mustard-celery take – the board's fifth potato salad, we know.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/tangy-potato-salad-with-celery-and-mustard/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="grainsalads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pasta-dish-0.jpg" alt="" loading="lazy"></span><div><h3>Pasta Salad with Zucchini, Sizzled Scallion, and Parmesan<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Zucchini pasta salad with scallions sizzled in oil.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/pasta-salad-with-zucchini-scallions-and-parmesan/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="grainsalads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pasta-dish-0.jpg" alt="" loading="lazy"></span><div><h3>Pasta Salad with Peas and Parmesan<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 6 · three kinds of green</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>12–16 oz short pasta (cavatappi, shells, fusilli)</li><li>Kosher salt</li><li>1 garlic clove, grated</li><li>2 lemons, zested and juiced</li><li>1 bunch scallions, thinly sliced</li><li>1/3 cup olive oil</li><li>Black pepper</li><li>10–12 oz snap peas, halved lengthwise</li><li>1–2 cups peas (blanched fresh or thawed frozen)</li><li>4 oz Parmesan or pecorino, coarsely chopped</li><li>1–2 cups herbs (parsley, basil, tarragon)</li><li>1–2 cups pea shoots</li></ul></div><div><h4>Method</h4><ol><li>Boil the pasta (12–16 oz) to al dente or a touch past; drain and rinse cool.</li><li>In your serving bowl: lemon zest and juice (2), garlic (1 clove), scallions (1 bunch), oil (1/3 cup), salt and pepper.</li><li>Toss the pasta through the dressing.</li><li>Fold in snap peas (10–12 oz), peas (1–2 cups), the chopped cheese (4 oz), herbs and pea shoots.</li><li>Correct with more lemon, salt or oil – it drinks seasoning as it sits.</li></ol><p class="note">Better the next day. The chopped (not grated) cheese is the move – salty little jackpots. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/pasta-salad-with-peas-and-parmesan/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="grainsalads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Farro with Toasted Fennel, Lemon, and Basil<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4–6 · warm grain salad</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 cups pearled farro (or barley, freekeh, wheat berries)</li><li>1/4 cup olive oil</li><li>6 garlic cloves, thinly sliced</li><li>1 Tbsp fennel seeds</li><li>1 large fennel bulb, thinly sliced, fronds reserved</li><li>1 lemon, thinly sliced, seeded</li><li>Kosher salt, black pepper, pinch red pepper flakes</li><li>1 cup basil leaves, torn</li></ul></div><div><h4>Method</h4><ol><li>Cook the farro (2 cups) per the package; drain.</li><li>Fry the garlic (6 cloves) and fennel seeds (1 Tbsp) in the oil (1/4 cup) over medium until the garlic just browns, 3–4 minutes.</li><li>Add the sliced fennel (1 bulb) and half the lemon slices with salt and pepper; cook 8–10 minutes until caramelized.</li><li>Toss in the farro with a pinch of flakes; coat for a few minutes.</li><li>Off heat, add the remaining lemon slices; serve topped with basil (1 cup) and fennel fronds.</li></ol><p class="note">Improves as it sits; the plain farro keeps 5 days ahead. Add ricotta salata or toasted nuts at will. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/farro-with-toasted-fennel-lemon-and-basil/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
 </div>
 </section>
 <section>
 <h2>Sides <span class="n"></span></h2>
 <div class="grid">
 
-<article class="r" data-c="sides">
+<article class="r" data-ar="1" data-c="sides">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/white-beans-dish-1.jpg" alt="" loading="lazy"></span><div><h3>Frizzled Green Beans</h3><p class="m">Sheet-pan · mushrooms + soy · good cold too</p></div><span class="x">+</span></button>
 <div class="rb"><div class="cols">
 <div><h4>Ingredients</h4><ul><li>1 lb green beans, trimmed</li><li>1–1 1/2 lb mixed mushrooms (oyster, maitake, baby bella), halved or quartered</li><li>2 small red or yellow onions, in 1/2-inch wedges</li><li>1/3 cup olive oil, plus more</li><li>2 Tbsp soy sauce or tamari</li><li>Kosher salt and black pepper</li><li>2 Tbsp fresh oregano or marjoram leaves (plus parsley/chives to finish)</li></ul></div>
 <div><h4>Method</h4><ol><li>Heat oven to 425°F. Toss beans (1 lb), mushrooms, onions (2 small), oil and soy on a rimmed sheet; season.</li><li>Roast ~45 minutes, tossing once or twice (more oil if needed), until mushrooms are deeply browned and beans tender and browned in spots.</li><li>Toss with the herbs, more oil and pepper.</li></ol>
 <p class="note">Trim beans up to 2 days ahead. Roast a few hours ahead and rewarm, or serve room temp. Leftovers are best cold, or over greens, or refreshed in a hot skillet.</p></div>
-</div></div>
+<p class="note">Also in Alison Roman’s archive. <a href="https://www.alisoneroman.com/recipes/frizzled-green-beans-mushrooms-and-onions/" target="_blank" rel="noopener">Her version →</a></p></div></div>
 </article>
 
 <article class="r" data-c="sides">
@@ -875,14 +1047,14 @@ footer.credits a{color:var(--muted)}
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 lb spinach, stemmed and washed well (or 1 lb baby spinach)</li><li>2 Tbsp extra virgin olive oil</li><li>2 garlic cloves, minced</li><li>1 can diced tomatoes in juice (or 1 1/4 lb fresh, peeled, seeded, chopped)</li><li>1 cup vegetable stock, garlic broth or water</li><li>2–3 Tbsp lemon juice, to taste</li><li>3 Tbsp long grain or basmati rice, well rinsed (or 1/2 cup cooked brown rice)</li><li>Salt, 2 tsp paprika, 1/2 tsp cinnamon</li><li>3/4–1 tsp sugar, to taste</li></ul></div><div><h4>Method</h4><ol><li>Warm the garlic (2 cloves) in the oil until fragrant; add tomatoes, paprika, cinnamon, sugar (3/4–1 tsp) and salt and cook down 5–8 minutes to a saucy base.</li><li>Pile in the spinach (2 lb) in batches, turning it through until wilted.</li><li>Stir in the rice (3 Tbsp) and stock; cover and simmer gently until the rice is tender and the mixture is juicy but not soupy, ~20 minutes (if using cooked rice, just 5).</li><li>Off heat, add lemon juice (2–3 Tbsp) to taste. Serve warm or room temp — yogurt alongside is right at home here.</li></ol><p class="note">Same family as the tsigarelli and spanakorizo already on the board. <a href="https://cooking.nytimes.com/recipes/12361-turkish-spinach-with-tomatoes-and-rice" target="_blank" rel="noopener">Original →</a></p></div></div></div>
 </article>
 
-<article class="r" data-c="sides">
+<article class="r" data-ar="1" data-c="sides">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Roman Potato Kugel</h3><p class="m">Alison Roman · ~1 1/4 hr · cast-iron, crispy-edged</p></div><span class="x">+</span></button>
-<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>4 lb russet potatoes (5–7), peeled</li><li>1 large yellow onion</li><li>6 large eggs</li><li>10 Tbsp melted chicken fat — use vegetable oil to keep it vegetarian</li><li>Kosher salt and plenty of black pepper</li><li>1/3 cup finely chopped chives; flaky salt</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 425°F. Grate the potatoes (4 lb) and onion (box grater or processor) into a colander.</li><li>Squeeze the shreds absolutely as dry as you can, handful by handful (a kitchen towel helps); dry potatoes = crisp kugel.</li><li>Mix with the eggs (6 large), 6 Tbsp of the fat, salt and lots of pepper.</li><li>Heat 2 Tbsp fat in a 9–10-inch cast-iron skillet over medium-high; add the mixture loosely — don't pack it, keep it airy.</li><li>Cook on the stovetop, rotating the pan, until golden at the edges and up the sides, 10–12 minutes.</li><li>Drizzle the last 2 Tbsp fat over the top and bake until deeply golden, wispy-crisp at the edges and fully tender inside, 45–50 minutes.</li><li>More pepper, chives and flaky salt; slice warm.</li></ol></div></div></div>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>4 lb russet potatoes (5–7), peeled</li><li>1 large yellow onion</li><li>6 large eggs</li><li>10 Tbsp melted chicken fat — use vegetable oil to keep it vegetarian</li><li>Kosher salt and plenty of black pepper</li><li>1/3 cup finely chopped chives; flaky salt</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 425°F. Grate the potatoes (4 lb) and onion (box grater or processor) into a colander.</li><li>Squeeze the shreds absolutely as dry as you can, handful by handful (a kitchen towel helps); dry potatoes = crisp kugel.</li><li>Mix with the eggs (6 large), 6 Tbsp of the fat, salt and lots of pepper.</li><li>Heat 2 Tbsp fat in a 9–10-inch cast-iron skillet over medium-high; add the mixture loosely — don't pack it, keep it airy.</li><li>Cook on the stovetop, rotating the pan, until golden at the edges and up the sides, 10–12 minutes.</li><li>Drizzle the last 2 Tbsp fat over the top and bake until deeply golden, wispy-crisp at the edges and fully tender inside, 45–50 minutes.</li><li>More pepper, chives and flaky salt; slice warm.</li></ol></div><p class="note">Also in Alison Roman’s archive. <a href="https://www.alisoneroman.com/recipes/crispy-potato-kugel/" target="_blank" rel="noopener">Her version →</a></p></div></div>
 </article>
 
-<article class="r" data-c="sides">
+<article class="r" data-ar="1" data-c="sides">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/kale-salad-0.jpg" alt="" loading="lazy"></span><div><h3>Crispy Stuffing with Kale (Vegetarian)</h3><p class="m">Alison Roman, minus the sausage · serves 8–10</p></div><span class="x">+</span></button>
-<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 large loaf crusty sourdough or ciabatta (~1 1/4 lb), torn into 1 1/2–2-inch pieces and staled overnight (or dried at 300°F, 20–30 min)</li><li>1/4 cup olive oil</li><li>1 bunch lacinato kale, stemmed, torn</li><li>8 Tbsp unsalted butter</li><li>6 garlic cloves, thinly sliced</li><li>2 large leeks and 6 celery stalks, thinly sliced (celery leaves reserved)</li><li>Kosher salt and black pepper</li><li>1 cup dry white wine (or broth + 1 Tbsp white wine vinegar)</li><li>2 Tbsp finely chopped sage, oregano or thyme</li><li>2 1/2 cups vegetable broth</li><li>3 large eggs</li><li>1/2 cup finely chopped parsley and/or chives</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 375°F. Wilt the kale (1 bunch) in the olive oil with salt and pepper; move it to your big mixing bowl.</li><li>In the same skillet, melt the butter (8 Tbsp); cook celery (2 large stalks) and leeks with salt and pepper until completely soft, 8–10 minutes. Garlic (6 cloves) for a minute or two, then the wine — reduce by three-quarters. Stir in the sage (2 Tbsp); off heat.</li><li>Whisk broth (2 1/2 cups) and eggs in the big bowl, add the vegetables, then the bread and kale; toss in stages so the bread drinks the liquid without being crushed.</li><li>Transfer loosely to a 9×13 (don't pack it). Dot with butter, especially the corners; flaky salt and pepper over.</li><li>Cover with foil; bake 25–30 minutes until sizzling and cooked through. Then uncover at 425°F until impossibly golden and crisp on top, ~20 minutes. Celery leaves to finish.</li><li>James's spec: the original's 2 lb sausage is omitted — a pound of hard-browned mushrooms is the best stand-in if you want the bulk.</li></ol></div></div></div>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 large loaf crusty sourdough or ciabatta (~1 1/4 lb), torn into 1 1/2–2-inch pieces and staled overnight (or dried at 300°F, 20–30 min)</li><li>1/4 cup olive oil</li><li>1 bunch lacinato kale, stemmed, torn</li><li>8 Tbsp unsalted butter</li><li>6 garlic cloves, thinly sliced</li><li>2 large leeks and 6 celery stalks, thinly sliced (celery leaves reserved)</li><li>Kosher salt and black pepper</li><li>1 cup dry white wine (or broth + 1 Tbsp white wine vinegar)</li><li>2 Tbsp finely chopped sage, oregano or thyme</li><li>2 1/2 cups vegetable broth</li><li>3 large eggs</li><li>1/2 cup finely chopped parsley and/or chives</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 375°F. Wilt the kale (1 bunch) in the olive oil with salt and pepper; move it to your big mixing bowl.</li><li>In the same skillet, melt the butter (8 Tbsp); cook celery (2 large stalks) and leeks with salt and pepper until completely soft, 8–10 minutes. Garlic (6 cloves) for a minute or two, then the wine — reduce by three-quarters. Stir in the sage (2 Tbsp); off heat.</li><li>Whisk broth (2 1/2 cups) and eggs in the big bowl, add the vegetables, then the bread and kale; toss in stages so the bread drinks the liquid without being crushed.</li><li>Transfer loosely to a 9×13 (don't pack it). Dot with butter, especially the corners; flaky salt and pepper over.</li><li>Cover with foil; bake 25–30 minutes until sizzling and cooked through. Then uncover at 425°F until impossibly golden and crisp on top, ~20 minutes. Celery leaves to finish.</li><li>James's spec: the original's 2 lb sausage is omitted — a pound of hard-browned mushrooms is the best stand-in if you want the bulk.</li></ol></div><p class="note">Also in Alison Roman’s archive. <a href="https://www.alisoneroman.com/recipes/crispy-sausage-stuffing-with-kale/" target="_blank" rel="noopener">Her version →</a></p></div></div>
 </article>
 
 <article class="r" data-c="sides" data-nyt="1">
@@ -893,6 +1065,136 @@ footer.credits a{color:var(--muted)}
 <article class="r" data-c="sides" data-nyt="1">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-cauliflower-0.jpg" alt="" loading="lazy"></span><div><h3>Roasted Cauliflower with Feta, Almonds &amp; Olives<span class="nytb">NYT</span></h3><p class="m">Melissa Clark · warm salad-side hybrid</p></div><span class="x">+</span></button>
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 large head cauliflower, in bite-size florets</li><li>1/4 cup olive oil</li><li>1 tsp ground cumin</li><li>Kosher salt and black pepper</li><li>3 oz feta, crumbled</li><li>1/3 cup toasted almonds, roughly chopped</li><li>1/3 cup green or kalamata olives, chopped</li><li>Juice of 1/2 lemon; parsley or dill</li></ul></div><div><h4>Method</h4><ol><li>Toss the florets with oil, cumin (1 tsp), salt and pepper; roast at 425°F until deeply browned, 25–30 minutes.</li><li>While hot, toss with feta (3 oz), almonds (1/3 cup), olives (1/3 cup) and lemon juice — the feta softens against the hot florets.</li><li>Herbs over; serve warm or room temp.</li></ol><p class="note"> <a href="https://cooking.nytimes.com/recipes/1019657-roasted-cauliflower-with-feta-almonds-and-olives" target="_blank" rel="noopener">Original →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-sweet-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Peppered Squash Gratin<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Squash baked in cream with a lot of black pepper.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/peppered-squash-gratin/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/bread-loaf-0.jpg" alt="" loading="lazy"></span><div><h3>Buttered Stuffing with Celery and Leeks<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">The all-vegetarian stuffing – the board's kale version's sibling.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/buttered-stuffing-celery-and-leeks/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/mashed-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Crushed Potato Gratin with Scallion and Herbs<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Potatoes crushed then baked in cream with scallions.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/crushed-potato-gratin-with-scallion-and-herbs/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-sweet-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Forever Roasted Squash with Crispy Sage<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Squash roasted past tender into caramel territory.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/forever-roasted-squash-with-crispy-sage/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/sugar-snap-peas-0.jpg" alt="" loading="lazy"></span><div><h3>Spicy Green Beans with Lemon and Garlic<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Blistered green beans, chili-lemon-garlic.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/spicy-green-beans-with-lemon-and-garlic/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Grilled Zucchini with Garlic and Dill<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Charred zucchini in a garlicky dill bath.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/grilled-zucchini-with-garlic-and-dill/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-carrots-0.jpg" alt="" loading="lazy"></span><div><h3>Peppered Carrots and Dill<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Carrots, cracked pepper, dill – done.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/peppered-carrots-and-dill/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/sugar-snap-peas-0.jpg" alt="" loading="lazy"></span><div><h3>Blanched Green Beans with Scallion and Soy<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Green beans in scallion-soy dressing, served cool.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/blanched-green-beans-with-scallion-and-soy/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Leek and Greens Gratin<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Leeks and dark greens under cream and crumbs.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/leek-and-greens-gratin/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-sweet-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Brown Buttered Squash, Dates and Walnuts<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Squash basted in brown butter, sticky dates, walnuts.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/brown-buttered-squash-dates-and-walnuts/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/sugar-snap-peas-0.jpg" alt="" loading="lazy"></span><div><h3>Green Beans and Greens with Fried Shallots<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">The Thanksgiving green beans with crunchy shallots.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/green-beans-and-greens-with-fried-shallots/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-sweet-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Spicy Caramelized Squash with Lemon and Hazelnuts<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Deeply browned squash, chili, lemon, hazelnut crunch.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/spicy-caramelized-squash-with-lemon-and-hazelnuts/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-carrots-0.jpg" alt="" loading="lazy"></span><div><h3>Garlicky, Buttered Carrots<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Carrots glazed in garlic butter.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/garlicky-buttered-carrots/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Crispy, Salty Latkes<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Proper latkes – shatter-crisp edges.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/crispy-salty-latkes/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/bread-loaf-0.jpg" alt="" loading="lazy"></span><div><h3>Classic Celery Stuffing<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">The traditionalist stuffing (swap in vegetable broth to keep it veg).</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/classic-celery-stuffing/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-broccoli-0.jpg" alt="" loading="lazy"></span><div><h3>Blanched Broccoli<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Her case for plain, well-salted blanched broccoli.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/blanched-broccoli-and-peas/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-carrots-0.jpg" alt="" loading="lazy"></span><div><h3>Spiced, Butter-Roasted Carrots with Walnuts<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4 · cinnamon + fennel seed</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 bunches small carrots (~1 lb), unpeeled, tops trimmed</li><li>3/4 cup walnuts, coarsely chopped</li><li>2 Tbsp olive oil</li><li>Kosher salt and black pepper</li><li>1/4 tsp each ground cinnamon and coriander</li><li>1/2 tsp crushed red pepper flakes</li><li>1 Tbsp fennel seed</li><li>2 Tbsp butter, in tiny pieces</li><li>1 garlic clove, grated</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 425°F. Cut some carrots (1 lb total) into coins, halve the rest lengthwise – mixed shapes roast better.</li><li>Pile carrots and walnuts (3/4 cup) on a sheet with the oil (2 Tbsp), spices (1/4 tsp each cinnamon and coriander, 1/2 tsp flakes, 1 Tbsp fennel seed), salt and pepper; toss and dot with the butter (2 Tbsp).</li><li>Roast 30–35 minutes, stirring every 15, until deeply browned and frizzled.</li><li>Off the oven, toss with the raw garlic (1 clove) – residual heat tames it.</li></ol><p class="note">Roast a few hours ahead; rewarm gently. Pairs with the brothy beans and herby farro on this board. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/spiced-butter-roasted-carrots-with-walnuts/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/mashed-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Sour Cream and Chive Mashed Potatoes<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 6–8 · make 2 days ahead</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>5 lb Yukon gold potatoes, peeled, large chunks</li><li>Kosher salt</li><li>1 cup whole milk or buttermilk, plus more</li><li>1 cup heavy cream</li><li>Black pepper</li><li>1 cup sour cream, divided</li><li>1 cup finely chopped chives, divided</li><li>A few Tbsp butter (optional)</li></ul></div><div><h4>Method</h4><ol><li>Boil the potatoes (5 lb) in well-salted water until completely soft, ~40 minutes.</li><li>Warm the milk (1 cup) and cream (1 cup) with salt and pepper to a bare simmer.</li><li>Drain, return to the pot, and mash to your preferred texture – lumps allowed.</li><li>Stir in the hot dairy; season. (Pause here up to 2 days, chilled.)</li><li>To serve: fold in three-quarters of the sour cream (3/4 cup) and chives (3/4 cup), plus butter if using; top with the rest of each, pepper, flaky salt.</li></ol><p class="note">They tighten overnight – loosen with 1/2 cup+ milk when reheating. Leftovers fry into pancakes. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/sour-cream-and-chive-mashed-potatoes/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/sugar-snap-peas-0.jpg" alt="" loading="lazy"></span><div><h3>Green Bean Casserole<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 6–8 · from-scratch, keeps the fried onions</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 Tbsp olive oil</li><li>1 medium onion, thinly sliced</li><li>Kosher salt and black pepper</li><li>1 lb mushrooms (cremini, button, oyster or maitake), quartered</li><li>1 lb green beans, trimmed, halved</li><li>2 Tbsp butter</li><li>2 Tbsp flour</li><li>1 3/4 cups whole milk</li><li>2 Tbsp soy sauce or tamari</li><li>1 garlic clove, grated</li><li>French's fried onions, to taste</li></ul></div><div><h4>Method</h4><ol><li>Brown the sliced onion (1) in the oil (2 Tbsp) with salt and pepper over medium-high, 10–12 minutes.</li><li>Add mushrooms (1 lb) and cook until shrunken and browned, another 10–12 minutes – let the onions go very dark.</li><li>Add the green beans (1 lb); cook until bright and tender, 8–10 minutes.</li><li>Melt in the butter (2 Tbsp), sprinkle over the flour (2 Tbsp) and stir 2–3 minutes; add the milk (1 3/4 cups) gradually, thickening between pours. Season with soy (2 Tbsp) and garlic (1 clove) and simmer to a gravy.</li><li>Heat oven to 425°F; blanket with fried onions and bake until golden and bubbling, 20–25 minutes.</li></ol><p class="note">Assemble a day ahead without the topping; top and bake to serve. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/green-bean-casserole/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/grilled-corn-0.jpg" alt="" loading="lazy"></span><div><h3>Polenta with Corn (Corn on Corn)<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 6–8 · fresh corn folded into polenta</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 cups coarsely ground polenta</li><li>Kosher salt and black pepper</li><li>5 Tbsp butter, divided</li><li>3–4 ears corn, kernels cut (~2 cups)</li><li>1/4–1/2 cup Parmesan or pecorino, plus more</li><li>1/4 tsp hot paprika</li><li>Pinch red pepper flakes</li></ul></div><div><h4>Method</h4><ol><li>Boil 8 cups salted water; whisk in the polenta (2 cups) and cook over low, stirring now and then, 15–20 minutes until tender.</li><li>Off heat, beat in butter (3 Tbsp) and cheese (1/4 cup); season.</li><li>Sizzle the corn (3–4 ears) in butter (2 Tbsp) with salt, paprika (1/4 tsp) and flakes, 2–3 minutes – just past raw.</li><li>Pile the corn over the polenta; more pepper, flakes and cheese over the top.</li></ol><p class="note">Both parts hold a few hours; loosen the polenta with water to reheat. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/polenta-with-corn/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/potato-salad-0.jpg" alt="" loading="lazy"></span><div><h3>Boiled Potatoes with Peas and Lemon<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 2–4 · spring platter</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 lb small potatoes</li><li>Kosher salt; splash white vinegar (optional)</li><li>1/4–1/2 lb snap or snow peas, halved lengthwise</li><li>1 large spring onion or 2 scallions, thinly sliced</li><li>1–2 lemons, zested and juiced</li><li>Black pepper; olive oil; dill (optional)</li></ul></div><div><h4>Method</h4><ol><li>Boil the potatoes (1 lb) in well-salted water (a splash of vinegar is nice) until a knife slides through; drain and cool a few minutes.</li><li>Halve lengthwise and lay on a platter with the raw peas (1/4–1/2 lb) and spring onion.</li><li>Salt, then zest the lemons (1–2) over everything, squeeze on the juice, pour over good olive oil, crack pepper. Dill if you have it.</li></ol><p class="note">Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/boiled-potatoes-with-peas-and-lemon/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Spicy Caramelized Leeks with Fresh Lemon<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4–6 · harissa + 450°F</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>4 large leeks, dark greens removed, halved lengthwise</li><li>1/3 cup olive oil</li><li>2 Tbsp harissa paste</li><li>Kosher salt and black pepper</li><li>1/2 lemon, seeded, very finely chopped</li><li>Flaky sea salt</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 450°F. With the leeks (4) cut-side down, slit them lengthwise every 1/4 inch, stopping at the root, so they fan open.</li><li>Whisk the oil (1/3 cup) with harissa (2 Tbsp); rub it into all the layers, season, and lay flat in a 9×13 or on a sheet.</li><li>Roast mostly undisturbed until the tips are browned and crisp, 20–25 minutes.</li><li>Platter; top with the chopped lemon (1/2 – flesh, peel and all) and flaky salt.</li></ol><p class="note">Holds hours at room temp; fine unheated. Cousin of the NYT miso leeks two sections over. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/spicy-caramelized-leeks-with-fresh-lemon/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Wine-Roasted Artichokes<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4–6 · foil, then blast</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2–3 large artichokes (1 1/2–2 lb)</li><li>1 cup white wine</li><li>1 cup water</li><li>1/4 cup olive oil</li><li>4 Tbsp butter, in 1/2-inch pieces</li><li>4 garlic cloves, smashed</li><li>Pinch red pepper flakes</li><li>Kosher salt, black pepper</li><li>Lemony aioli, for serving (hers is on this board)</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 425°F. Trim the stems, saw off the top 1 1/2 inches, pull the toughest leaves, snip thorns.</li><li>Halve lengthwise and scoop out the fuzzy choke; set cut-side down in a 9×13.</li><li>Add wine (1 cup), water (1 cup) and oil (1/4 cup); scatter the butter (4 Tbsp), garlic (4 cloves) and flakes; season, cover tight with foil, roast 45–55 minutes to tender.</li><li>Uncover; roast 15–20 more until the liquid is mostly gone and the tops brown.</li><li>Serve with the garlicky pan oil – and the aioli card – for dipping.</li></ol><p class="note">Roast hours ahead; room temperature is fine. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/wine-roasted-artichokes/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Tiny Boiled Potatoes with Butter and Chives<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 8–12 · pepper butter</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 lb small waxy potatoes</li><li>1/2 cup butter</li><li>Kosher salt and cracked black pepper</li><li>1 cup chives, finely chopped</li><li>Flaky salt</li></ul></div><div><h4>Method</h4><ol><li>Simmer the potatoes (2 lb) in well-salted water until tender, 10–15 minutes; drain and cool slightly.</li><li>Warm the butter (1/2 cup) with lots of cracked pepper until fragrant – a splash of water keeps it from browning.</li><li>Halve the potatoes, toss with the pepper butter, then the chives (1 cup) and flaky salt.</li></ol><p class="note">Her version offers anchovies in the butter – omitted here. Scales freely. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/tiny-boiled-potatoes-with-butter-and-chives/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>The Greatest Creamed Greens<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 8–12 · any dark green</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>3/4 cup coarse breadcrumbs or panko (optional)</li><li>2 Tbsp olive oil, plus more</li><li>Kosher salt and black pepper</li><li>1 cup heavy cream</li><li>4 garlic cloves, smashed</li><li>1/8 tsp grated nutmeg (optional)</li><li>2 large bunches spinach, kale, chard or broccoli rabe (~16 cups), coarsely chopped</li><li>1/2 cup crème fraîche (optional)</li></ul></div><div><h4>Method</h4><ol><li>Toast the crumbs (3/4 cup) in oil with salt and pepper until crisp, 3–5 minutes; set aside.</li><li>Simmer the cream (1 cup) with garlic (4 cloves) and nutmeg until reduced by half and properly thick, 15–20 minutes.</li><li>Wilt the greens (16 cups) in oil (2 Tbsp) a handful at a time, cooking until totally tender and dry, ~10–13 minutes total.</li><li>Stir in the reduced cream and crème fraîche (1/2 cup); heat through. Crumbs over the top.</li></ol><p class="note">Reduce the cream further than feels right – the greens give water back. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/the-greatest-creamed-greens/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="sides" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-potatoes-0.jpg" alt="" loading="lazy"></span><div><h3>Baked Potato Bar<span class="arb">AR</span></h3><p class="m">Alison Roman · free on her site</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Build-your-own baked potatoes with all the toppings – veg if you leave the roe in the fridge.</p><p class="note"><a href="https://www.alisoneroman.com/recipes/baked-potato-bar/" target="_blank" rel="noopener">Open recipe →</a></p></div>
 </article>
 
 </div>
@@ -925,12 +1227,12 @@ footer.credits a{color:var(--muted)}
 <p class="note">Also on NYT Cooking – ★★★★★ (5,420 ratings), by Yasmin Fahr. <a href="https://cooking.nytimes.com/search?q=Miso+Mushroom+and+Leek+Pasta" target="_blank" rel="noopener">View there →</a></p></div></div>
 </article>
 
-<article class="r" data-nyt="1" data-c="pasta" data-new="1">
+<article class="r" data-ar="1" data-nyt="1" data-c="pasta" data-new="1">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pasta-with-tomato-sauce-0.jpg" alt="" loading="lazy"></span><div><h3>Caramelized Shallot Pasta (Vegetarian)<span class="new">New</span></h3><p class="m">Alison Roman-style · miso stands in for anchovy</p></div><span class="x">+</span></button>
 <div class="rb"><div class="cols">
 <div><h4>Ingredients</h4><ul><li>1/4 cup olive oil</li><li>6 large shallots, very thinly sliced</li><li>5 garlic cloves, 4 thinly sliced, 1 grated</li><li>Kosher salt and black pepper</li><li>1 tsp red pepper flakes</li><li>1 Tbsp white miso (the umami the anchovies would bring)</li><li>1 (4.5-oz) tube or 1/2 cup tomato paste</li><li>10 oz bucatini or spaghetti</li><li>Butter, 1 Tbsp</li><li>1 cup parsley, finely chopped</li></ul></div>
 <div><h4>Method</h4><ol><li>Cook shallots (6 large) in the oil over medium, stirring, until deeply golden and jammy, 15–20 minutes. Add sliced garlic (5 cloves), salt, pepper and flakes (1 tsp); 2 minutes more.</li><li>Stir in miso (1 Tbsp), then tomato paste (1 (4.5-oz)); fry, stirring, until it goes brick-dark and caramelized at the edges, ~2 minutes. (This shallot-tomato concentrate keeps a week — the original's whole point.)</li><li>Cook pasta al dente; reserve 1 cup water. Toss pasta with half the sauce, butter and splashes of pasta water until glossy.</li><li>Off heat, add parsley (1 cup) and the grated garlic; season. Serve with the extra sauce dolloped on top.</li></ol></div>
-<p class="note">Also on NYT Cooking – ★★★★★ (20,441 ratings), by Alison Roman. This card is the vegetarian adaptation; the NYT original uses anchovies. <a href="https://cooking.nytimes.com/search?q=Caramelized+Shallot+Pasta" target="_blank" rel="noopener">View there →</a></p></div></div>
+<p class="note">Also on NYT Cooking – ★★★★★ (20,441 ratings), by Alison Roman. This card is the vegetarian adaptation; the NYT original uses anchovies. <a href="https://cooking.nytimes.com/search?q=Caramelized+Shallot+Pasta" target="_blank" rel="noopener">View there →</a></p><p class="note">Also in Alison Roman’s archive. <a href="https://www.alisoneroman.com/recipes/caramelized-shallot-pasta/" target="_blank" rel="noopener">Her version →</a></p></div></div>
 </article>
 
 <article class="r" data-c="pasta" data-new="1">
@@ -958,7 +1260,7 @@ footer.credits a{color:var(--muted)}
 <p class="note">Also on NYT Cooking – ★★★★ (7,787 ratings), by Alison Roman. <a href="https://cooking.nytimes.com/search?q=Baked+Ziti+Alison+Roman" target="_blank" rel="noopener">View there →</a></p></div></div>
 </article>
 
-<article class="r" data-c="pasta">
+<article class="r" data-ar="1" data-c="pasta">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/vegetable-lasagna-0.jpg" alt="" loading="lazy"></span><div><h3>Lasagna (Alison Roman)</h3><p class="m">The one with the crispy frilly edges</p></div><span class="x">+</span></button>
 <div class="rb"><div class="cols">
 <div><h4>Ingredients</h4>
@@ -966,7 +1268,7 @@ footer.credits a{color:var(--muted)}
 <p class="sub">Assembly</p><ul><li>1 1/2 lb fresh mozzarella, grated or shredded</li><li>16 oz (2 cups) whole-milk ricotta</li><li>1 cup coarsely grated Parmesan, plus more</li><li>1/3 cup heavy cream</li><li>1 garlic clove, finely grated</li><li>1 lb dried lasagna noodles (not no-boil)</li><li>Olive oil, for drizzling</li></ul></div>
 <div><h4>Method</h4><ol><li>Soften onion (1 large), garlic and anchovies in oil with salt and pepper, 8–10 minutes. Tomato paste (2 Tbsp) in; cook to brick red, ~2 minutes.</li><li>Hand-crush the whole tomatoes (1 (28-oz) can) in, add crushed tomatoes (1 (28-oz) can) plus half a can of water. Simmer 35–45 minutes until as thick as jarred sauce — looser and it won't cut clean.</li><li>Oven 425°F; salted water on to boil. Set aside 1 cup mozzarella; mix the rest with ricotta (16 oz), Parmesan (1 cup total), cream and grated garlic (4 cloves); season.</li><li>Boil noodles (1 lb) until just softened, 4–5 minutes; drain, separate, oil lightly.</li><li>In a 3-quart dish: thin layer of sauce, noodles (minimal overlap), ~1 1/4 cups sauce, a quarter of the cheese mixture. Repeat three more times, ending with noodles then the last of the sauce. Top with the reserved mozzarella (1 1/2 lb) and more Parmesan.</li><li>Cover loosely with foil on a lined sheet pan; bake 25–30 minutes until tender and bubbling. Uncover and bake until golden with frilly crisp corners, 35–45 more. Cool slightly.</li></ol>
 <p class="note">Sauce keeps 1 week. Baked lasagna keeps 3 days (1 month frozen); reheat covered at 375°F, 25–45 minutes.</p></div>
-</div></div>
+<p class="note">Also in Alison Roman’s archive. <a href="https://www.alisoneroman.com/recipes/a-very-good-lasagna/" target="_blank" rel="noopener">Her version →</a></p></div></div>
 </article>
 
 <article class="r" data-c="pasta">
@@ -1003,12 +1305,12 @@ footer.credits a{color:var(--muted)}
 </div></div>
 </article>
 
-<article class="r" data-c="pasta">
+<article class="r" data-ar="1" data-c="pasta">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/ricotta-crostini-1.jpg" alt="" loading="lazy"></span><div><h3>Ricotta Dumplings with Peas &amp; Asparagus</h3><p class="m">Roman-style gnudi · spring skillet</p></div><span class="x">+</span></button>
 <div class="rb"><div class="cols">
 <div><h4>Ingredients</h4><ul><li>2 cups whole-milk ricotta</li><li>2 large eggs</li><li>Kosher salt and black pepper</li><li>3/4 cup all-purpose flour</li><li>4 Tbsp unsalted butter</li><li>2 Tbsp olive oil, plus more</li><li>1 large leek, white and light green, thinly sliced</li><li>1 bunch asparagus, trimmed, 2-inch pieces</li><li>2 cups shelled fresh or frozen peas</li><li>3 cups pea shoots or leaves, thick stems removed</li><li>1/4 cup parsley or mint leaves</li><li>Parmesan or pecorino, to serve</li></ul></div>
 <div><h4>Method</h4><ol><li>Boil a large pot of salted water. Mix ricotta (2 cups) and eggs; season, then gently mix in flour (3/4 cup) — don't overmix or the dumplings toughen.</li><li>Heat butter (4 Tbsp) and oil over medium-high; cook leeks with salt and pepper until soft and coloring, 5–8 minutes.</li><li>Add asparagus (1 bunch) and peas (2 cups); toss until asparagus is just tender and bright, 2–4 minutes. Off heat.</li><li>Drop the ricotta mixture into the boiling water by heaping spoonfuls (they swell; work in batches). Once they float, boil 4–5 more minutes — cut one open: pillowy, not doughy.</li><li>Transfer dumplings to the skillet with a slotted spoon; toss over medium to coat. Add pea shoots just until wilted.</li><li>Serve topped with herbs, grated cheese and olive oil (2 Tbsp total).</li></ol></div>
-</div></div>
+<p class="note">Also in Alison Roman’s archive. <a href="https://www.alisoneroman.com/recipes/ricotta-dumplings-buttered-peas-asparagus/" target="_blank" rel="noopener">Her version →</a></p></div></div>
 </article>
 
 <article class="r" data-c="pasta" data-nyt="1">
@@ -1044,6 +1346,41 @@ footer.credits a{color:var(--muted)}
 <article class="r" data-c="pasta" data-nyt="1">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pasta-dish-0.jpg" alt="" loading="lazy"></span><div><h3>One-Pot Pasta With Ricotta and Lemon<span class="nytb">NYT</span></h3><p class="m">Ali Slagle · 15 min · ★★★★ (19,253 ratings)</p></div><span class="x">+</span></button>
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 lb short ribbed pasta</li><li>1 cup whole-milk ricotta</li><li>Zest of 1 lemon + juice of half</li><li>1/2 cup grated Parmesan</li><li>Black pepper; kosher salt</li><li>Basil or mint (optional)</li></ul></div><div><h4>Method</h4><ol><li>While the pasta (1 lb) boils, stir ricotta (1 cup), lemon zest, Parmesan (1/2 cup), 1 tsp salt and plenty of pepper in the serving bowl.</li><li>Loosen the ricotta with 1/2 cup pasta water; drain the pasta and toss it through.</li><li>Lemon juice to finish; more Parmesan and herbs if you like. 15 minutes, honestly.</li></ol><p class="note">Adapted in our own words. <a href="https://cooking.nytimes.com/search?q=One-Pot+Pasta+With+Ricotta+and+Lemon" target="_blank" rel="noopener">Original on NYT Cooking →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="pasta" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/baked-ziti-0.jpg" alt="" loading="lazy"></span><div><h3>Baked Shells<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Weeknight baked pasta, Roman style.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/baked-shells/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="pasta" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pasta-dish-0.jpg" alt="" loading="lazy"></span><div><h3>Lemon Pepper Pasta with Browned Butter<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Cacio e pepe energy with browned butter and lemon.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/lemon-pepper-pasta-with-browned-butter/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="pasta" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/roasted-cauliflower-0.jpg" alt="" loading="lazy"></span><div><h3>Creamy Cauliflower Pasta with Pecorino Bread Crumbs<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Cauliflower collapses into the sauce; crunchy pecorino crumbs on top.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/creamy-cauliflower-pasta-with-pecorino-bread-crumbs/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="pasta" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pasta-dish-0.jpg" alt="" loading="lazy"></span><div><h3>Pasta with Zucchini, Feta and Fried Lemon<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Summer pasta with jammy zucchini and whole fried lemon slices.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/pasta-with-zucchini-feta-and-fried-lemon/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="pasta" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/macaroni-and-cheese-0.jpg" alt="" loading="lazy"></span><div><h3>A Very Easy Macaroni and Cheese<span class="arb">AR</span></h3><p class="m">Alison Roman · the toddler-approved 5-ingredient one</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>6 oz shell or elbow pasta</li><li>Kosher salt</li><li>2 oz cream cheese</li><li>1/2 cup grated Parmesan</li><li>Black pepper (optional)</li></ul></div><div><h4>Method</h4><ol><li>Boil the pasta (6 oz) in well-salted water until tender; save a cup of the water and drain.</li><li>Return pasta to the pot with cream cheese (2 oz), Parmesan (1/2 cup) and half the reserved water (1/2 cup).</li><li>Stir over medium 3–5 minutes until the cheeses melt into a coating sauce; splash in more water as needed.</li><li>Pepper if you like. Reheats well with a splash of water.</li></ol><p class="note">Quickest mac on the board – the 9×13 baked one is four cards up when you have an hour. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/a-very-easy-macaroni-and-cheese/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="pasta" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Roasted Eggplant Pasta with Parmesan Breadcrumbs<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4–6 · deeply roasted, no frying</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 1/2–2 lb globe eggplant (~2), sliced 1/4–1/2 inch</li><li>1/2 cup + 4 Tbsp olive oil, divided</li><li>1 cup panko</li><li>1/4 cup Parmesan or pecorino, plus more</li><li>1/2 cup chopped parsley, chives and/or oregano</li><li>Kosher salt and black pepper</li><li>4 garlic cloves, thinly sliced</li><li>8 oz sungold or cherry tomatoes</li><li>1–2 Tbsp tomato paste, harissa or gochujang</li><li>Red pepper flakes (optional)</li><li>12–16 oz short tubular pasta (rigatoni, paccheri)</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 425°F. Season the eggplant slices (1 1/2–2 lb) on sheet pans, drizzle with the 1/2 cup oil, and roast 30–45 minutes, turning halfway, until deeply browned.</li><li>Toast the panko (1 cup) in oil (2 Tbsp) with salt and pepper until golden, 5–7 minutes; stir in the cheese (1/4 cup) for a minute more, then toss with a few tablespoons of the herbs.</li><li>In the same skillet: garlic (4 cloves) in oil (2 Tbsp) 3–5 minutes, then tomatoes (8 oz), paste (1–2 Tbsp) and flakes until the tomatoes burst and the paste goes brick-red.</li><li>Fold the eggplant into the skillet. Boil the pasta (12–16 oz) just shy of al dente; reserve 2 cups water.</li><li>Toss pasta into the skillet with 1 1/2 cups pasta water over medium, 3–5 minutes, until thick and creamy.</li><li>Top with the Parmesan crumbs, remaining herbs and more cheese.</li></ol><p class="note">Pasta keeps 3 days – she endorses it cold. Crumbs keep a day at room temp. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/roasted-eggplant-pasta/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="pasta" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pasta-dish-0.jpg" alt="" loading="lazy"></span><div><h3>Fresh Tomato and Fennel Pasta<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4 · the fennel-seed 'sausage effect'</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>12 oz rigatoni or other pasta</li><li>Kosher salt</li><li>1/4 cup olive oil</li><li>2 Tbsp butter</li><li>5 garlic cloves (4 sliced, 1 grated)</li><li>1 Tbsp fennel seed</li><li>Red pepper flakes, to taste</li><li>2 lb tiny tomatoes, halved</li><li>2 Tbsp white distilled vinegar</li><li>Pecorino or Parmesan; black pepper</li></ul></div><div><h4>Method</h4><ol><li>Get salted pasta water going while the sauce builds.</li><li>Fry the sliced garlic (4 cloves), fennel seed (1 Tbsp) and flakes in the oil (1/4 cup) and butter (2 Tbsp) over medium-high until golden, 3–4 minutes.</li><li>High heat: add the tomatoes (2 lb), salt and pepper; cook 5–7 minutes until split and jammy but still holding shape.</li><li>Splash in the vinegar (2 Tbsp); off heat.</li><li>Boil the pasta (12 oz) to al dente, move it into the tomatoes, and toss with pasta water until glossy.</li><li>Bowl with grated cheese, the raw grated garlic (1 clove) and cracked pepper.</li></ol><p class="note">Fennel seed + chile + garlic reads like sausage with no meat in sight – same trick as the caramelized shallot pasta. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/fresh-tomato-and-fennel-pasta/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
 </article>
 
 </div>
@@ -1440,6 +1777,66 @@ footer.credits a{color:var(--muted)}
 </div></div>
 </article>
 
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/frittata-0.jpg" alt="" loading="lazy"></span><div><h3>Buttered Zucchini Omelette<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Soft omelette over melted, buttery zucchini.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/buttered-zucchini-omelette/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/white-beans-dish-0.jpg" alt="" loading="lazy"></span><div><h3>Caramelized Beans with Tomato &amp; Cabbage<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Beans cooked hard in tomato until the edges caramelize, cabbage folded through.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/caramelized-beans-with-tomato-cabbage/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/chickpea-salad-0.jpg" alt="" loading="lazy"></span><div><h3>Brothy Chickpeas with Calabrian Chili<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Chickpeas in a spicy, sippable broth; bread required.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/brothy-chickpeas-with-calabrian-chili/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/white-beans-dish-0.jpg" alt="" loading="lazy"></span><div><h3>Beans with Beans<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Two textures of bean, one pot of conviction.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/beans-with-beans/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>A Little Eggplant Parm<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Scaled-down eggplant parm – board's full-size version two cards over.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/eggplant-parm/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Creamy Farro with Crispy Mushrooms and Sour Cream<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Farro cooked risotto-creamy, fried mushrooms on top.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/creamy-farro-with-crispy-mushrooms-and-sour-cream/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/frittata-0.jpg" alt="" loading="lazy"></span><div><h3>Charred Kale Frittata<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Kale charred first, then set into the eggs.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/charred-kale-frittata/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/frittata-0.jpg" alt="" loading="lazy"></span><div><h3>Spanish Tortilla with Aioli and Friends<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Slow-cooked potato-onion tortilla; her aioli card is on the board too.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/spanish-tortilla/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/white-beans-dish-0.jpg" alt="" loading="lazy"></span><div><h3>A Pot of Brothy Beans<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">The master recipe behind every beans-on-toast move.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/brothy-beans/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/lentil-dish-0.jpg" alt="" loading="lazy"></span><div><h3>Lentils (Daal) with Fried Lemon and Garlic<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Daal finished with frizzled lemon and garlic in oil.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/lentils-with-fried-lemon-and-garlic/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/frittata-0.jpg" alt="" loading="lazy"></span><div><h3>Matzo Brei<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 2–4 · frizzled-onion school</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 Tbsp neutral oil</li><li>1 large onion, thinly sliced</li><li>Kosher salt and black pepper</li><li>4 lightly salted matzo boards</li><li>6 large eggs</li><li>2 Tbsp butter</li><li>Chives, scallions and/or dill (optional)</li><li>Sour cream or Greek yogurt (optional)</li></ul></div><div><h4>Method</h4><ol><li>Brown the onion (1 large) in the oil (2 Tbsp) with salt and pepper until deeply frizzled, 8–10 minutes.</li><li>Whisk the eggs (6) with salt and pepper.</li><li>Break the matzo (4 boards) into quarters; soak in hot water 60–90 seconds until pliable, then squeeze dry.</li><li>Fold the matzo into the eggs; rest a minute or two.</li><li>Add to the onions with the butter (2 Tbsp); cook over medium just until the eggs set, ~1 minute. Flaky salt, herbs, sour cream.</li></ol><p class="note">Surprisingly good cold the next day – her words, confirmed widely. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/matzo-brei/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="mains" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/vegetable-pizza-0.jpg" alt="" loading="lazy"></span><div><h3>Sheet Pan Pizza<span class="arb">AR</span></h3><p class="m">Alison Roman · free on her site</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Big crackly-bottomed pan pizza – vegetarian as long as you skip the cured-meat and anchovy topping options.</p><p class="note"><a href="https://www.alisoneroman.com/recipes/sheet-pan-pizza/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
 </div>
 </section>
 <section>
@@ -1462,12 +1859,12 @@ footer.credits a{color:var(--muted)}
 </div></div>
 </article>
 
-<article class="r" data-c="soups" data-new="1">
+<article class="r" data-ar="1" data-c="soups" data-new="1">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/vegetable-soup-0.jpg" alt="" loading="lazy"></span><div><h3>Spiced Chickpea Stew with Coconut &amp; Turmeric<span class="new">New</span></h3><p class="m">Alison Roman's "The Stew," adapted · vegan</p></div><span class="x">+</span></button>
 <div class="rb"><div class="cols">
 <div><h4>Ingredients</h4><ul><li>1/4 cup olive oil</li><li>4 garlic cloves, chopped</li><li>1 yellow onion, sliced</li><li>1 (2-inch) piece ginger, finely chopped</li><li>Kosher salt and black pepper</li><li>1 1/2 tsp ground turmeric, plus more</li><li>1 tsp red pepper flakes, plus more</li><li>2 (15-oz) cans chickpeas, drained and rinsed</li><li>2 (15-oz) cans full-fat coconut milk</li><li>2 cups vegetable stock</li><li>1 bunch Swiss chard, kale or collards, stemmed and torn</li><li>1 cup mint or cilantro leaves</li><li>Yogurt, toasted pita, lime — to serve</li></ul></div>
 <div><h4>Method</h4><ol><li>Soften garlic (4 cloves), onion (1) and ginger in the oil over medium with salt and pepper, 3–5 minutes.</li><li>Add turmeric (1 1/2 tsp total), pepper flakes (1 tsp total) and chickpeas (2 (15-oz) cans); season and fry, stirring, until the chickpeas start to brown and crisp, 8–10 minutes. Mash a few against the pot.</li><li>Add coconut milk (2 (15-oz) cans) and stock; season. Simmer, stirring occasionally and smashing more chickpeas as you go, until thickened, 30–35 minutes.</li><li>Fold in the greens until wilted, ~3 minutes. Adjust salt.</li><li>Bowl it with mint/cilantro, a spoon of yogurt, lime, and pita for dragging.</li></ol></div>
-</div></div>
+<p class="note">Also in Alison Roman’s archive. <a href="https://www.alisoneroman.com/recipes/spiced-chickpea-stew-with-coconut-and-turmeric/" target="_blank" rel="noopener">Her version →</a></p></div></div>
 </article>
 
 <article class="r" data-c="soups" data-new="1">
@@ -1577,6 +1974,41 @@ footer.credits a{color:var(--muted)}
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>3 Tbsp olive oil, plus more</li><li>1 onion, chopped</li><li>2 garlic cloves, minced</li><li>1 Tbsp tomato paste</li><li>1 tsp ground cumin</li><li>Kosher salt, black pepper, pinch of cayenne</li><li>4 cups stock + 2 cups water</li><li>1 cup red lentils, rinsed</li><li>1 large carrot, diced</li><li>Juice of 1/2 lemon; cilantro</li></ul></div><div><h4>Method</h4><ol><li>Soften the onion (1) and garlic (2 cloves) in oil. Stir in tomato paste (1 Tbsp), cumin, salt, pepper and cayenne; fry 2 minutes.</li><li>Add stock, water, lentils (1 cup) and carrot. Simmer uncovered until the lentils fall apart, ~30 minutes.</li><li>Purée about half (immersion blender, quick pulse) so it's creamy but textured.</li><li>Off heat: lemon juice. Serve with cilantro, an oil drizzle and a dusting of chili.</li></ol><p class="note">Adapted in our own words. <a href="https://cooking.nytimes.com/search?q=Red+Lentil+Soup" target="_blank" rel="noopener">Original on NYT Cooking →</a></p></div></div></div>
 </article>
 
+<article class="r" data-c="soups" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Golden Mushroom Soup with Buttered Orzo<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Deeply golden mushroom broth over buttered orzo.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/golden-mushroom-soup-with-buttered-orzo/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="soups" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/lentil-soup-0.jpg" alt="" loading="lazy"></span><div><h3>Squash Soup with Lentils and Herbs<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Winter squash and lentils, herbed and brothy.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/squash-soup-with-lentils-and-herbs/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="soups" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/miso-soup-1.jpg" alt="" loading="lazy"></span><div><h3>Mushroom Soup with Tofu and Toasted Garlic<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Brothy mushrooms, silky tofu, chips of toasted garlic.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/mushroom-soup-with-tofu-and-toasted-garlic/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="soups" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/vegetable-soup-0.jpg" alt="" loading="lazy"></span><div><h3>Spicy Noodle Soup with Mushrooms and Herbs<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Chili-slicked noodle soup; mushrooms do the heavy lifting.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/spicy-noodle-soup-with-mushrooms-and-herbs/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="soups" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/miso-soup-1.jpg" alt="" loading="lazy"></span><div><h3>Spring Tofu Soup<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Light, green, restorative tofu soup.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/spring-tofu-soup/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="soups" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/vegetable-soup-0.jpg" alt="" loading="lazy"></span><div><h3>Summer Vegetable Soup with Hominy &amp; Lime<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4 · ~50 min</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 Tbsp olive oil</li><li>2 large yellow or white onions, finely chopped</li><li>4 garlic cloves, chopped</li><li>3/4 tsp ground cumin</li><li>Kosher salt and black pepper</li><li>1 1/2–2 lb zucchini or summer squash, large chunks</li><li>1 jalapeño, very thinly sliced</li><li>8 cups vegetable broth</li><li>2 (15-oz) cans hominy, drained and rinsed</li><li>3 ears corn, kernels cut off (~2 1/2 cups frozen works)</li><li>1 bunch cilantro, finely chopped</li><li>2–4 limes, halved</li></ul></div><div><h4>Method</h4><ol><li>Warm the oil (2 Tbsp) in a big pot over medium-high and brown three-quarters of the onions, the garlic (4 cloves) and cumin (3/4 tsp) with salt and pepper until soft and browned at the edges, 5–8 minutes.</li><li>Add the squash (1 1/2–2 lb) and half the jalapeño; season again and cook until it starts to soften and color, 8–10 minutes.</li><li>Pour in the broth (8 cups), hominy (2 cans) and corn (3 ears); simmer 20–25 minutes until the squash collapses into the broth.</li><li>Stir in the rest of the jalapeño and half the cilantro; adjust seasoning.</li><li>Bowl it; finish with the reserved raw onion, remaining cilantro and a hard squeeze of lime.</li></ol><p class="note">Keeps 3 days (store without cilantro/lime) or freezes for months; add the fresh finishers when serving. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/summer-vegetable-soup-with-hominy-lime/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="soups" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/white-beans-dish-0.jpg" alt="" loading="lazy"></span><div><h3>Dilly Bean Stew with Cabbage and Frizzled Onions<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 4 · vegetarian with veg broth</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 Tbsp butter + 2 Tbsp olive oil, plus more</li><li>1 large onion, thinly sliced</li><li>Kosher salt and black pepper</li><li>2 (15-oz) cans white beans, rinsed</li><li>4 cups vegetable broth</li><li>1/4 head cabbage (~8–10 oz), coarsely chopped</li><li>1 Tbsp white vinegar or lemon juice</li><li>1 cup dill, coarsely chopped</li><li>Sour cream, to serve (optional)</li></ul></div><div><h4>Method</h4><ol><li>Frizzle the onion (1 large) in butter (2 Tbsp) and oil (2 Tbsp) over medium-high with salt and pepper until crisp-edged, 5–8 minutes; set a quarter aside for topping.</li><li>Add the beans (2 cans); crush some against the pot so the broth goes creamy.</li><li>Broth in (4 cups); simmer 15–20 minutes. Add cabbage (1/4 head) and vinegar (1 Tbsp); simmer 10–15 more until silky.</li><li>Stir in half the dill (1/2 cup). Serve topped with the rest, the reserved onions, oil, pepper and sour cream.</li></ol><p class="note">Her recipe allows chicken broth – vegetable keeps it on-board. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/dilly-bean-stew-with-cabbage-and-frizzled-onions/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
 </div>
 </section>
 
@@ -1680,6 +2112,31 @@ footer.credits a{color:var(--muted)}
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1 stick (115 g) unsalted butter, melted, plus soft butter to serve</li><li>1 cup (145 g) all-purpose flour</li><li>1 cup (130 g) coarse cornmeal</li><li>1/2 cup (90 g) packed light brown sugar</li><li>1 Tbsp baking powder</li><li>1 1/4 tsp kosher salt</li><li>1 tsp coarse black pepper (optional)</li><li>2 large eggs</li><li>3/4 cup (170 g) mayonnaise, sour cream, or a mix</li><li>1/2 cup buttermilk</li><li>Honey and flaky salt, to serve</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 400°F. Grease a 9-inch pie plate, cake pan or skillet with a spoonful of the melted butter (1 stick).</li><li>Whisk flour (1 cup), cornmeal, brown sugar (1/2 cup), baking powder, salt (1 1/4 tsp) and pepper (1 tsp). Separately whisk eggs (2 large), mayo and buttermilk (1/2 cup).</li><li>Combine wet into dry just until it comes together (lumps fine); fold in the rest of the melted butter.</li><li>Bake until the edges are deeply browned and the top is sunflower-gold (cracks welcome), 20–25 minutes.</li><li>Whip soft butter with honey and flaky salt until glossy; serve warm slices with it.</li><li>Yes, mayonnaise (3/4 cup) — it's just oil and eggs. The board's other cornbread is the traditionalist option.</li></ol></div></div></div>
 </article>
 
+<article class="r" data-c="breads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/bread-loaf-0.jpg" alt="" loading="lazy"></span><div><h3>Luckiest Biscuits in America<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Tall, flaky New Year's biscuits.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/luckiest-biscuits-in-america/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="breads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/bread-loaf-0.jpg" alt="" loading="lazy"></span><div><h3>A Better Garlic Bread<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Garlic bread with an actual method.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/a-better-garlic-bread/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="breads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cornbread-0.jpg" alt="" loading="lazy"></span><div><h3>Cheesy, Salty, Savory Scones<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">The savory scone against all sweet scones.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/cheesy-salty-savory-scones/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="breads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/bread-loaf-0.jpg" alt="" loading="lazy"></span><div><h3>Dilly Rolls<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Soft dill rolls with soft butter.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/dilly-rolls-with-soft-butter/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="breads" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pull-apart-bread-0.jpg" alt="" loading="lazy"></span><div><h3>Sticky Cinnamon Rolls<span class="arb">AR</span></h3><p class="m">Alison Roman · 12 rolls · overnight dough, maple glaze</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>Dough: 1 cup whole milk or buttermilk, 1/4 cup sugar, 2 1/4 tsp active dry yeast, 3 3/4 cups flour, 1 1/2 tsp baking powder, 1 1/2 tsp kosher salt, 2 eggs, 1 stick butter in pieces</li><li>Filling: 1 cup light brown sugar, 1 Tbsp cinnamon, 3/4 tsp salt, 1/2 cup soft butter</li><li>2/3 cup maple syrup, divided</li><li>Flaky salt (optional)</li></ul></div><div><h4>Method</h4><ol><li>Stir milk (1 cup), sugar (1/4 cup) and yeast (2 1/4 tsp) in a stand mixer; add flour (3 3/4 cups), baking powder and salt on low to shaggy, then the eggs (2) one at a time until smooth and sticky.</li><li>Knead in the butter (1 stick) piece by piece, 3–4 minutes to silky. Rise covered in the fridge 12–24 hours.</li><li>Grease a 9×13; pour in about half the maple (1/3 cup). Mix the filling sugar (1 cup), cinnamon (1 Tbsp) and salt.</li><li>Roll the cold dough to ~12×24 inches, spread with the soft butter (1/2 cup), scatter the filling, roll up tight from the long side; cut 12 rolls.</li><li>Nestle in the dish; proof 30–35 minutes (50–60 from cold) while the oven heats to 350°F. Bake 35–40 minutes to golden.</li><li>Brush the hot rolls with the remaining maple (1/3 cup); flaky salt; eat warm.</li></ol><p class="note">Best day-of; leftovers reheat gently in the oven. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/sticky-cinnamon-rolls/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
 </div>
 </section>
 <section>
@@ -1746,14 +2203,14 @@ footer.credits a{color:var(--muted)}
 </div></div>
 </article>
 
-<article class="r" data-nyt="1" data-c="desserts">
+<article class="r" data-ar="1" data-nyt="1" data-c="desserts">
 <button class="rh" aria-expanded="false"><span class="thumb"><img src="img/grilled-corn-0.jpg" alt="" loading="lazy"></span><div><h3>Blueberry Cornmeal Tart</h3><p class="m">Alison Roman · crust doubles as crumble · nearly unmessupable</p></div><span class="x">+</span></button>
 <div class="rb"><div class="cols">
 <div><h4>Ingredients</h4>
 <p class="sub">Crust &amp; topping</p><ul><li>1 1/2 cups/225 g all-purpose flour</li><li>1/3 cup/55 g cornmeal</li><li>1/3 cup/50 g confectioners' sugar</li><li>1/4 cup/55 g light brown sugar</li><li>1 tsp baking powder</li><li>1 tsp kosher salt</li><li>3/4 cup/170 g unsalted butter, melted, cooled slightly</li></ul>
 <p class="sub">Filling</p><ul><li>1 lb/455 g blueberries (or mixed berries)</li><li>1/2 cup/110 g light brown sugar</li><li>2 Tbsp apple cider vinegar or lemon/lime juice</li><li>2 Tbsp all-purpose flour</li><li>Pinch kosher salt</li></ul></div>
 <div><h4>Method</h4><ol><li>Oven 350°F. Whisk the dry crust ingredients; add melted butter (3/4) and mix to a coarse dough with no dry spots.</li><li>Press 3/4 of it into a 9-inch tart pan (or cake/springform/8×8), evenly across the bottom and 1/2 inch up the sides — a flat measuring-cup bottom helps. Chill shell and remaining crumble.</li><li>Toss the filling together; pour into the crust.</li><li>Crumble the remaining mixture over in large clumps — sporadic coverage is right; berries should peek through.</li><li>Bake on a rimmed sheet until bubbly and browned top and bottom, 50–55 minutes.</li><li>Cool completely before slicing. Keeps tightly wrapped 2–4 days (fridge if hot/humid). Vanilla ice cream: obvious, correct.</li></ol></div>
-<p class="note">Also on NYT Cooking – ★★★★★ (2,519 ratings), by Alison Roman. <a href="https://cooking.nytimes.com/search?q=Blueberry+Cornmeal+Shortbread+Tart" target="_blank" rel="noopener">View there →</a></p></div></div>
+<p class="note">Also on NYT Cooking – ★★★★★ (2,519 ratings), by Alison Roman. <a href="https://cooking.nytimes.com/search?q=Blueberry+Cornmeal+Shortbread+Tart" target="_blank" rel="noopener">View there →</a></p><p class="note">Also in Alison Roman’s archive. <a href="https://www.alisoneroman.com/recipes/blueberry-cornmeal-tart/" target="_blank" rel="noopener">Her version →</a></p></div></div>
 </article>
 
 <article class="r" data-c="desserts">
@@ -2064,6 +2521,171 @@ footer.credits a{color:var(--muted)}
 <div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>2 cups (300 g) all-purpose flour</li><li>1 Tbsp baking powder</li><li>1 tsp kosher salt; 1/2 tsp baking soda</li><li>3/4 cup buttermilk or thin yogurt</li><li>3/4 cup (180 g) sugar, plus more for the tops</li><li>1/4 cup lightly packed light brown sugar</li><li>2 large eggs</li><li>1/2 cup (1 stick) melted butter or olive oil</li><li>Optional: 1 Tbsp lemon zest, 1/4 tsp cinnamon or 1/2 tsp vanilla</li><li>2 1/2 cups blueberries, fresh or frozen (don't thaw)</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 425°F; line or grease 12 muffin cups.</li><li>Whisk the dry ingredients in one bowl. In the other, whisk both sugars with the eggs (2 large), then the buttermilk and butter.</li><li>Fold dry into wet gently — a few floury streaks are fine. Fold in 2 cups of the berries.</li><li>Fill the cups high, top with remaining berries and a generous crunch of sugar (1/4 cup).</li><li>Bake until domed, deeply golden and cooked through, 17–20 minutes.</li><li>Sits opposite the Jordan Marsh muffins on the board: this one's craggy-topped and eggy; that one's the mashed-berry classic. Arguably better the next day.</li></ol></div></div></div>
 </article>
 
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>First Bloom Hot Chocolate<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Proper hot chocolate, not cocoa powder in water.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/first-bloom-hot-chocolate/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cocktail-0.jpg" alt="" loading="lazy"></span><div><h3>A Cheeky Little Eggnog<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Small-batch nog, cheeky by design.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/a-cheeky-little-eggnog/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/lemon-cake-0.jpg" alt="" loading="lazy"></span><div><h3>Lemony Turmeric Tea Cake<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Golden loaf – turmeric for color, lemon for argument.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/lemony-turmeric-tea-cake/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/brownies-0.jpg" alt="" loading="lazy"></span><div><h3>A Bowl of Salted Chocolate Pudding<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Deep chocolate pudding, flaky salt.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/a-bowl-of-salted-chocolate-pudding/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pumpkin-pie-0.jpg" alt="" loading="lazy"></span><div><h3>Gingersnap Pumpkin Pie<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Pumpkin pie on a gingersnap crust.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/gingersnap-pumpkin-pie/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/blueberry-muffins-0.jpg" alt="" loading="lazy"></span><div><h3>Sweet Enough Scones<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Scones from the book of the same conviction.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/sweet-enough-scones/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/chocolate-chip-cookies-0.jpg" alt="" loading="lazy"></span><div><h3>Salty Lemon Shortbread<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Lemon shortbread with her signature salt level.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/salty-lemon-shortbread/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/brownies-0.jpg" alt="" loading="lazy"></span><div><h3>Hot Buttered Rum Pudding<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Boozy, buttery pudding for cold nights.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/hot-buttered-rum-pudding/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/rice-pilaf-0.jpg" alt="" loading="lazy"></span><div><h3>Toasted Rice Pudding<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Rice toasted before simmering – nuttier pudding.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/toasted-rice-pudding/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cake-0.jpg" alt="" loading="lazy"></span><div><h3>Old-Fashioned Strawberry Cake<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Grandma-style strawberry cake.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/old-fashioned-strawberry-cake/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cake-0.jpg" alt="" loading="lazy"></span><div><h3>Mint Chip Ice Cream Cake<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Freezer cake; assembly, not baking.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/mint-chip-ice-cream-cake/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>All-Purpose Chocolate Sheet Cake<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">The birthday workhorse.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/all-purpose-chocolate-sheet-cake/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/fruit-tart-0.jpg" alt="" loading="lazy"></span><div><h3>Simple Fruit Tart<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Pastry cream + fruit on the Only Pie Crust.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/simple-fruit-tart/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cheesecake-0.jpg" alt="" loading="lazy"></span><div><h3>Vanilla Pastry Cream, A Perfect Pudding<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Master pastry cream; eat it as pudding, nobody's checking.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/vanilla-pastry-cream-a-perfect-pudding/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cheesecake-0.jpg" alt="" loading="lazy"></span><div><h3>Almost Cheesecake<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Cheesecake adjacent, less ceremony.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/almost-cheesecake/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cheesecake-0.jpg" alt="" loading="lazy"></span><div><h3>(Cottage) Cheese Cake<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Cottage cheese, vindicated in cake form.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/cottage-cheese-cake/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cake-0.jpg" alt="" loading="lazy"></span><div><h3>Coconut Banana Cream Pudding<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Banana pudding gone coconut.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/coconut-banana-cream-pudding/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/berry-cobbler-0.jpg" alt="" loading="lazy"></span><div><h3>Strawberry Shortcake Cobbler<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Shortcake baked right onto the berries.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/strawberry-shortcake-cobbler/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pie-0.jpg" alt="" loading="lazy"></span><div><h3>Double-Crust Peach Pie with Honey, Ginger, and Lime<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Peak-summer peach pie, gingery and bright.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/double-crust-peach-pie-with-honey-ginger-and-lime/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/apple-cake-0.jpg" alt="" loading="lazy"></span><div><h3>Sticky Apple Cake<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Caramel-sticky apple cake.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/sticky-apple-cake/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Salted Apricot-Honey Cobbler<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Apricots under salted honeyed biscuit.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/salted-apricot-honey-cobbler/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cake-0.jpg" alt="" loading="lazy"></span><div><h3>Perfect, Crispy Pancakes<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Lacy-edged pancakes – breakfast, filed under joy.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/perfect-crispy-pancakes/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/chocolate-chip-cookies-0.jpg" alt="" loading="lazy"></span><div><h3>Salted Butter and Chocolate Chunk Shortbread<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">THE shortbread – the log-slice cookies that broke the internet.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/salted-butter-chocolate-chunk-shortbread/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/apple-cake-0.jpg" alt="" loading="lazy"></span><div><h3>Deep-Dish Honey Apple Galette<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Free-form apple pie with real depth.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/deep-dish-honey-apple-galette/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/apple-cake-0.jpg" alt="" loading="lazy"></span><div><h3>Apple Cinnamon Tart<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Thin, cinnamon-laced apple tart.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/apple-cinnamon-tart/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/pie-0.jpg" alt="" loading="lazy"></span><div><h3>The Only Pie Crust<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Her master crust – same school as the board's Samin-style dough.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/the-only-pie-crust/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/apple-cake-0.jpg" alt="" loading="lazy"></span><div><h3>Apples with Honey and Crushed Walnuts<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Charoset-adjacent apples, honey, walnuts.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/apples-with-honey-and-crushed-walnuts/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/chocolate-chip-cookies-0.jpg" alt="" loading="lazy"></span><div><h3>Tiny, Salty, Chocolaty Cookies<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">One-bite salty chocolate cookies.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/tiny-salty-chocolaty-cookies/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/blueberry-cake-0.jpg" alt="" loading="lazy"></span><div><h3>Blueberry Olive Oil Cake<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Her blueberry riff on the olive-oil cake family.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/blueberry-olive-oil-cake-2/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cocktail-0.jpg" alt="" loading="lazy"></span><div><h3>New York Sour Punch<span class="arb">AR</span></h3><p class="m">Alison Roman · subscriber recipe</p></div><span class="x">+</span></button>
+<div class="rb"><p class="desc">Big-batch whiskey-wine punch.</p><p class="note">On Alison Roman’s site – opens with your subscription. Paste the text here anytime and it becomes a full card. <a href="https://www.alisoneroman.com/recipes/new-york-sour-punch/" target="_blank" rel="noopener">Open recipe →</a></p></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Crispy Chocolate Cake with Hazelnut &amp; Sour Cream<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 8–10 · sunken middle by design</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1/2 cup (1 stick) butter, plus more for the pan</li><li>3/4 cup + 2 Tbsp sugar, plus more for the pan</li><li>8 oz bittersweet chocolate (67%+), finely chopped</li><li>1/2 cup Nutella, almond butter or tahini</li><li>6 large eggs</li><li>1/2 cup hazelnut or almond flour</li><li>2 Tbsp cocoa powder</li><li>1 tsp kosher salt</li><li>Topping: 1 cup heavy cream, 1/4 cup confectioners' sugar, pinch salt, 1 cup sour cream, 1/4 cup Nutella; cherries optional</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 350°F. Butter a 9-inch springform and dust it with sugar.</li><li>Melt the chocolate (8 oz), Nutella (1/2 cup) and butter (1 stick) over simmering water until smooth.</li><li>Separate 4 of the eggs. Whisk the 4 yolks with the 2 whole eggs, nut flour (1/2 cup), cocoa (2 Tbsp) and salt (1 tsp); fold into the chocolate.</li><li>Whip the 4 whites foamy, rain in the sugar (3/4 cup), and beat to stiff, tripled volume; fold in gently.</li><li>Scrape into the pan, scatter the last sugar (2 Tbsp) on top, bake 35–40 minutes until puffed, cracked and pulling from the sides.</li><li>Cool fully – the sunken middle is the point; it makes the edges crisp. Whip the topping cream (1 cup) with confectioners' sugar and salt, whisk in sour cream (1 cup) and Nutella (1/4 cup); serve alongside, cherries if you have them.</li></ol><p class="note">Bakes up to 2 days ahead; wrap tightly, room temperature. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/crispy-chocolate-cake-with-hazelnut-sour-cream/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb"><img src="img/cheesecake-0.jpg" alt="" loading="lazy"></span><div><h3>Citrusy Cheesecake<span class="arb">AR</span></h3><p class="m">Alison Roman · serves 8–10 · food-processor filling</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>Crust: 8 oz vanilla wafers or graham crackers, 3 Tbsp light brown sugar, 6 Tbsp melted butter, pinch salt</li><li>1 lb cream cheese, room temp</li><li>1 cup sour cream, Greek yogurt or labne</li><li>1/2 cup granulated sugar</li><li>2 large eggs</li><li>2 Tbsp finely grated citrus zest</li><li>Pinch kosher salt</li><li>Thin citrus slices, to top (optional)</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 325°F. Grind the cookies (8 oz); stir in brown sugar (3 Tbsp), melted butter (6 Tbsp) and salt to damp sand. Pack into a 9-inch pie plate or springform.</li><li>Bake the crust until golden at the edges, 10–12 minutes.</li><li>Blitz cream cheese (1 lb), sour cream (1 cup) and sugar (1/2 cup) smooth; add eggs (2), zest (2 Tbsp) and salt and blend silky.</li><li>Pour into the warm crust; bake until set with a center wobble, 20–35 minutes. Oven off, door propped, 20 minutes more.</li><li>Cool 30 minutes, then chill ~2 hours. Citrus slices over to serve.</li></ol><p class="note">Keeps 5 days wrapped. Sits between the Basque and the Almost Cheesecake on the board's cheesecake spectrum. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/citrusy-cheesecake/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
+<article class="r" data-c="desserts" data-ar="1">
+<button class="rh" aria-expanded="false"><span class="thumb">🍽️</span><div><h3>Chocolate Banana Bread<span class="arb">AR</span></h3><p class="m">Alison Roman · one loaf · more cake than breakfast</p></div><span class="x">+</span></button>
+<div class="rb"><div class="cols"><div><h4>Ingredients</h4><ul><li>1/2 cup Demerara sugar, for pan and top</li><li>1 1/2 cups all-purpose flour</li><li>1/2 cup cocoa powder</li><li>1 tsp baking soda</li><li>1 tsp kosher salt</li><li>6 Tbsp butter, room temp</li><li>1/3 cup granulated + 1/4 cup light brown sugar</li><li>1 tsp vanilla</li><li>1 large egg</li><li>5 very ripe bananas – 4 mashed, 1 halved lengthwise</li><li>1/2 cup mascarpone, sour cream, yogurt or labne</li></ul></div><div><h4>Method</h4><ol><li>Heat oven to 350°F. Grease a 9×5 loaf pan and coat it with half the Demerara (1/4 cup).</li><li>Whisk flour (1 1/2 cups), cocoa (1/2 cup), soda (1 tsp) and salt (1 tsp).</li><li>Beat the butter (6 Tbsp) with both sugars and vanilla until fluffy, 3–5 minutes; beat in the egg (1) ~2 minutes.</li><li>Low speed: the dry mix, then fold in mashed bananas (4) and mascarpone (1/2 cup).</li><li>Top with the split banana (1) and remaining Demerara (1/4 cup); bake 90–100 minutes until the center springs back.</li><li>Cool completely before slicing – it's fudgy when warm.</li></ol><p class="note">The board's plain banana bread for purists is in this section too. Adapted in our own words. <a href="https://www.alisoneroman.com/recipes/chocolate-banana-bread/" target="_blank" rel="noopener">Original on alisoneroman.com →</a></p></div></div></div>
+</article>
+
 </div>
 </section>
 <p id="empty">Nothing matches — try fewer words.</p>
@@ -2081,7 +2703,7 @@ function apply(){
   const s=q.value.trim().toLowerCase();
   let vis=0;
   cards.forEach(c=>{
-    const okCat=cat==='all'||(cat==='new'?c.dataset.new==='1':cat==='nytc'?c.dataset.nyt==='1':c.dataset.c===cat);
+    const okCat=cat==='all'||(cat==='new'?c.dataset.new==='1':cat==='nytc'?c.dataset.nyt==='1':cat==='arc'?c.dataset.ar==='1':c.dataset.c===cat);
     const okQ=!s||c._t.includes(s);
     const show=okCat&&okQ;
     c.style.display=show?'':'none';
